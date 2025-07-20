@@ -1,0 +1,75 @@
+import type { ComponentProps } from "react"
+import Image from "next/image"
+import { Badge } from "@last-block/ui/components/badge"
+import {
+  HoverCard,
+  HoverCardContent,
+  HoverCardTrigger,
+} from "@last-block/ui/components/hover-card"
+import { PersonStandingIcon } from "lucide-react"
+
+import { Player } from "@/types/player"
+import { cn } from "@/lib/utils"
+
+import { Icons } from "./icons"
+
+interface Coordinates {
+  x: number
+  y: number
+}
+
+interface Health {
+  current: number
+  max: number
+}
+
+interface Energy {
+  current: number
+  max: number
+}
+
+export type StatusProps = ComponentProps<typeof Badge> & {
+  player: Player
+}
+
+export const PlayerBadge = ({ player, className, ...props }: StatusProps) => {
+  let borderColor = "border-gray-400"
+  let playerIcon
+  if (player.class === "zombie") {
+    playerIcon = <Icons.zombie />
+    borderColor = "border-red-400"
+  } else {
+    playerIcon = <PersonStandingIcon />
+  }
+
+  // if class = zombie
+  return (
+    <HoverCard>
+      <HoverCardTrigger>
+        <Badge
+          className={cn(
+            "flex items-center gap-2 border border-red-400",
+            "group",
+            className,
+            borderColor
+          )}
+          variant="secondary"
+          {...props}
+        >
+          {playerIcon}
+          {player.name}
+        </Badge>
+      </HoverCardTrigger>
+      <HoverCardContent>
+        <div className="">
+          <Image
+            alt={`${player.name} avatar`}
+            src={player.avatarUrl}
+            width={100}
+            height={100}
+          />
+        </div>
+      </HoverCardContent>
+    </HoverCard>
+  )
+}
