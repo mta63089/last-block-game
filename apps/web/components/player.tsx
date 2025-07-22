@@ -1,32 +1,19 @@
+//components/player.tsx
 import type { ComponentProps } from "react"
 import Image from "next/image"
+import { Player } from "@/generated/prisma"
+import { PersonStandingIcon } from "lucide-react"
+
 import { Badge } from "@last-block/ui/components/badge"
 import {
   HoverCard,
   HoverCardContent,
   HoverCardTrigger,
 } from "@last-block/ui/components/hover-card"
-import { PersonStandingIcon } from "lucide-react"
 
-import { Player } from "@/types/player"
 import { cn } from "@/lib/utils"
 
 import { Icons } from "./icons"
-
-interface Coordinates {
-  x: number
-  y: number
-}
-
-interface Health {
-  current: number
-  max: number
-}
-
-interface Energy {
-  current: number
-  max: number
-}
 
 export type StatusProps = ComponentProps<typeof Badge> & {
   player: Player

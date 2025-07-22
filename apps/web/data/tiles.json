@@ -1,0 +1,2558 @@
+{
+  "tiles": [
+    {
+      "name": "Old Rail Yard",
+      "description": "Rusted trains and scattered crates. Dangerous gangs are rumored to control this area.",
+      "icon": "trainyard.svg",
+      "x": 0,
+      "y": 0,
+      "tags": [
+        "industrial",
+        "transport"
+      ],
+      "searchable": false,
+      "dangerous": true
+    },
+    {
+      "name": "Sunset Valley Hospital",
+      "description": "The hospital is overrun. Supplies are scarce, and the halls echo with strange noises.",
+      "icon": "hospital.svg",
+      "x": 1,
+      "y": 0,
+      "tags": [
+        "hospital",
+        "medical"
+      ],
+      "searchable": true,
+      "dangerous": true
+    },
+    {
+      "name": "Evergreen Police Department",
+      "description": "A rundown police precinct, looted and scarred from the first wave of chaos.",
+      "icon": "police_station.svg",
+      "x": 2,
+      "y": 0,
+      "tags": [
+        "government",
+        "police"
+      ],
+      "searchable": true,
+      "dangerous": true
+    },
+    {
+      "name": "Sunset Valley Hospital",
+      "description": "The hospital is overrun. Supplies are scarce, and the halls echo with strange noises.",
+      "icon": "hospital.svg",
+      "x": 3,
+      "y": 0,
+      "tags": [
+        "hospital",
+        "medical"
+      ],
+      "searchable": true,
+      "dangerous": true
+    },
+    {
+      "name": "Old Rail Yard",
+      "description": "Rusted trains and scattered crates. Dangerous gangs are rumored to control this area.",
+      "icon": "trainyard.svg",
+      "x": 4,
+      "y": 0,
+      "tags": [
+        "industrial",
+        "transport"
+      ],
+      "searchable": false,
+      "dangerous": true
+    },
+    {
+      "name": "Evergreen Police Department",
+      "description": "A rundown police precinct, looted and scarred from the first wave of chaos.",
+      "icon": "police_station.svg",
+      "x": 5,
+      "y": 0,
+      "tags": [
+        "government",
+        "police"
+      ],
+      "searchable": true,
+      "dangerous": true
+    },
+    {
+      "name": "Sunset Valley Hospital",
+      "description": "The hospital is overrun. Supplies are scarce, and the halls echo with strange noises.",
+      "icon": "hospital.svg",
+      "x": 6,
+      "y": 0,
+      "tags": [
+        "hospital",
+        "medical"
+      ],
+      "searchable": true,
+      "dangerous": true
+    },
+    {
+      "name": "Sunset Valley Hospital",
+      "description": "The hospital is overrun. Supplies are scarce, and the halls echo with strange noises.",
+      "icon": "hospital.svg",
+      "x": 7,
+      "y": 0,
+      "tags": [
+        "hospital",
+        "medical"
+      ],
+      "searchable": true,
+      "dangerous": true
+    },
+    {
+      "name": "Old Rail Yard",
+      "description": "Rusted trains and scattered crates. Dangerous gangs are rumored to control this area.",
+      "icon": "trainyard.svg",
+      "x": 8,
+      "y": 0,
+      "tags": [
+        "industrial",
+        "transport"
+      ],
+      "searchable": false,
+      "dangerous": true
+    },
+    {
+      "name": "Sunset Valley Hospital",
+      "description": "The hospital is overrun. Supplies are scarce, and the halls echo with strange noises.",
+      "icon": "hospital.svg",
+      "x": 9,
+      "y": 0,
+      "tags": [
+        "hospital",
+        "medical"
+      ],
+      "searchable": true,
+      "dangerous": true
+    },
+    {
+      "name": "Evergreen Police Department",
+      "description": "A rundown police precinct, looted and scarred from the first wave of chaos.",
+      "icon": "police_station.svg",
+      "x": 10,
+      "y": 0,
+      "tags": [
+        "government",
+        "police"
+      ],
+      "searchable": true,
+      "dangerous": true
+    },
+    {
+      "name": "Sunset Valley Hospital",
+      "description": "The hospital is overrun. Supplies are scarce, and the halls echo with strange noises.",
+      "icon": "hospital.svg",
+      "x": 11,
+      "y": 0,
+      "tags": [
+        "hospital",
+        "medical"
+      ],
+      "searchable": true,
+      "dangerous": true
+    },
+    {
+      "name": "Evergreen Police Department",
+      "description": "A rundown police precinct, looted and scarred from the first wave of chaos.",
+      "icon": "police_station.svg",
+      "x": 12,
+      "y": 0,
+      "tags": [
+        "government",
+        "police"
+      ],
+      "searchable": true,
+      "dangerous": true
+    },
+    {
+      "name": "Southside Grocery",
+      "description": "Rotting produce and looted shelves. Still, something might remain untouched.",
+      "icon": "grocery.svg",
+      "x": 13,
+      "y": 0,
+      "tags": [
+        "commercial",
+        "grocery"
+      ],
+      "searchable": true,
+      "dangerous": false
+    },
+    {
+      "name": "Abandoned Apartment Block",
+      "description": "Multiple floors of broken windows and silent hallways. Could be a place to rest or a trap.",
+      "icon": "apartment.svg",
+      "x": 14,
+      "y": 0,
+      "tags": [
+        "residential"
+      ],
+      "searchable": true,
+      "dangerous": false
+    },
+    {
+      "name": "Sunset Valley Hospital",
+      "description": "The hospital is overrun. Supplies are scarce, and the halls echo with strange noises.",
+      "icon": "hospital.svg",
+      "x": 15,
+      "y": 0,
+      "tags": [
+        "hospital",
+        "medical"
+      ],
+      "searchable": true,
+      "dangerous": true
+    },
+    {
+      "name": "Southside Grocery",
+      "description": "Rotting produce and looted shelves. Still, something might remain untouched.",
+      "icon": "grocery.svg",
+      "x": 16,
+      "y": 0,
+      "tags": [
+        "commercial",
+        "grocery"
+      ],
+      "searchable": true,
+      "dangerous": false
+    },
+    {
+      "name": "Old Rail Yard",
+      "description": "Rusted trains and scattered crates. Dangerous gangs are rumored to control this area.",
+      "icon": "trainyard.svg",
+      "x": 17,
+      "y": 0,
+      "tags": [
+        "industrial",
+        "transport"
+      ],
+      "searchable": false,
+      "dangerous": true
+    },
+    {
+      "name": "Evergreen Police Department",
+      "description": "A rundown police precinct, looted and scarred from the first wave of chaos.",
+      "icon": "police_station.svg",
+      "x": 18,
+      "y": 0,
+      "tags": [
+        "government",
+        "police"
+      ],
+      "searchable": true,
+      "dangerous": true
+    },
+    {
+      "name": "Sunset Valley Hospital",
+      "description": "The hospital is overrun. Supplies are scarce, and the halls echo with strange noises.",
+      "icon": "hospital.svg",
+      "x": 19,
+      "y": 0,
+      "tags": [
+        "hospital",
+        "medical"
+      ],
+      "searchable": true,
+      "dangerous": true
+    },
+    {
+      "name": "Evergreen Police Department",
+      "description": "A rundown police precinct, looted and scarred from the first wave of chaos.",
+      "icon": "police_station.svg",
+      "x": 0,
+      "y": 1,
+      "tags": [
+        "government",
+        "police"
+      ],
+      "searchable": true,
+      "dangerous": true
+    },
+    {
+      "name": "Old Rail Yard",
+      "description": "Rusted trains and scattered crates. Dangerous gangs are rumored to control this area.",
+      "icon": "trainyard.svg",
+      "x": 1,
+      "y": 1,
+      "tags": [
+        "industrial",
+        "transport"
+      ],
+      "searchable": false,
+      "dangerous": true
+    },
+    {
+      "name": "Abandoned Apartment Block",
+      "description": "Multiple floors of broken windows and silent hallways. Could be a place to rest or a trap.",
+      "icon": "apartment.svg",
+      "x": 2,
+      "y": 1,
+      "tags": [
+        "residential"
+      ],
+      "searchable": true,
+      "dangerous": false
+    },
+    {
+      "name": "Evergreen Police Department",
+      "description": "A rundown police precinct, looted and scarred from the first wave of chaos.",
+      "icon": "police_station.svg",
+      "x": 3,
+      "y": 1,
+      "tags": [
+        "government",
+        "police"
+      ],
+      "searchable": true,
+      "dangerous": true
+    },
+    {
+      "name": "Evergreen Police Department",
+      "description": "A rundown police precinct, looted and scarred from the first wave of chaos.",
+      "icon": "police_station.svg",
+      "x": 4,
+      "y": 1,
+      "tags": [
+        "government",
+        "police"
+      ],
+      "searchable": true,
+      "dangerous": true
+    },
+    {
+      "name": "Sunset Valley Hospital",
+      "description": "The hospital is overrun. Supplies are scarce, and the halls echo with strange noises.",
+      "icon": "hospital.svg",
+      "x": 5,
+      "y": 1,
+      "tags": [
+        "hospital",
+        "medical"
+      ],
+      "searchable": true,
+      "dangerous": true
+    },
+    {
+      "name": "Southside Grocery",
+      "description": "Rotting produce and looted shelves. Still, something might remain untouched.",
+      "icon": "grocery.svg",
+      "x": 6,
+      "y": 1,
+      "tags": [
+        "commercial",
+        "grocery"
+      ],
+      "searchable": true,
+      "dangerous": false
+    },
+    {
+      "name": "Abandoned Apartment Block",
+      "description": "Multiple floors of broken windows and silent hallways. Could be a place to rest or a trap.",
+      "icon": "apartment.svg",
+      "x": 7,
+      "y": 1,
+      "tags": [
+        "residential"
+      ],
+      "searchable": true,
+      "dangerous": false
+    },
+    {
+      "name": "Old Rail Yard",
+      "description": "Rusted trains and scattered crates. Dangerous gangs are rumored to control this area.",
+      "icon": "trainyard.svg",
+      "x": 8,
+      "y": 1,
+      "tags": [
+        "industrial",
+        "transport"
+      ],
+      "searchable": false,
+      "dangerous": true
+    },
+    {
+      "name": "Abandoned Apartment Block",
+      "description": "Multiple floors of broken windows and silent hallways. Could be a place to rest or a trap.",
+      "icon": "apartment.svg",
+      "x": 9,
+      "y": 1,
+      "tags": [
+        "residential"
+      ],
+      "searchable": true,
+      "dangerous": false
+    },
+    {
+      "name": "Sunset Valley Hospital",
+      "description": "The hospital is overrun. Supplies are scarce, and the halls echo with strange noises.",
+      "icon": "hospital.svg",
+      "x": 10,
+      "y": 1,
+      "tags": [
+        "hospital",
+        "medical"
+      ],
+      "searchable": true,
+      "dangerous": true
+    },
+    {
+      "name": "Evergreen Police Department",
+      "description": "A rundown police precinct, looted and scarred from the first wave of chaos.",
+      "icon": "police_station.svg",
+      "x": 11,
+      "y": 1,
+      "tags": [
+        "government",
+        "police"
+      ],
+      "searchable": true,
+      "dangerous": true
+    },
+    {
+      "name": "Sunset Valley Hospital",
+      "description": "The hospital is overrun. Supplies are scarce, and the halls echo with strange noises.",
+      "icon": "hospital.svg",
+      "x": 12,
+      "y": 1,
+      "tags": [
+        "hospital",
+        "medical"
+      ],
+      "searchable": true,
+      "dangerous": true
+    },
+    {
+      "name": "Southside Grocery",
+      "description": "Rotting produce and looted shelves. Still, something might remain untouched.",
+      "icon": "grocery.svg",
+      "x": 13,
+      "y": 1,
+      "tags": [
+        "commercial",
+        "grocery"
+      ],
+      "searchable": true,
+      "dangerous": false
+    },
+    {
+      "name": "Abandoned Apartment Block",
+      "description": "Multiple floors of broken windows and silent hallways. Could be a place to rest or a trap.",
+      "icon": "apartment.svg",
+      "x": 14,
+      "y": 1,
+      "tags": [
+        "residential"
+      ],
+      "searchable": true,
+      "dangerous": false
+    },
+    {
+      "name": "Evergreen Police Department",
+      "description": "A rundown police precinct, looted and scarred from the first wave of chaos.",
+      "icon": "police_station.svg",
+      "x": 15,
+      "y": 1,
+      "tags": [
+        "government",
+        "police"
+      ],
+      "searchable": true,
+      "dangerous": true
+    },
+    {
+      "name": "Southside Grocery",
+      "description": "Rotting produce and looted shelves. Still, something might remain untouched.",
+      "icon": "grocery.svg",
+      "x": 16,
+      "y": 1,
+      "tags": [
+        "commercial",
+        "grocery"
+      ],
+      "searchable": true,
+      "dangerous": false
+    },
+    {
+      "name": "Old Rail Yard",
+      "description": "Rusted trains and scattered crates. Dangerous gangs are rumored to control this area.",
+      "icon": "trainyard.svg",
+      "x": 17,
+      "y": 1,
+      "tags": [
+        "industrial",
+        "transport"
+      ],
+      "searchable": false,
+      "dangerous": true
+    },
+    {
+      "name": "Old Rail Yard",
+      "description": "Rusted trains and scattered crates. Dangerous gangs are rumored to control this area.",
+      "icon": "trainyard.svg",
+      "x": 18,
+      "y": 1,
+      "tags": [
+        "industrial",
+        "transport"
+      ],
+      "searchable": false,
+      "dangerous": true
+    },
+    {
+      "name": "Evergreen Police Department",
+      "description": "A rundown police precinct, looted and scarred from the first wave of chaos.",
+      "icon": "police_station.svg",
+      "x": 19,
+      "y": 1,
+      "tags": [
+        "government",
+        "police"
+      ],
+      "searchable": true,
+      "dangerous": true
+    },
+    {
+      "name": "Sunset Valley Hospital",
+      "description": "The hospital is overrun. Supplies are scarce, and the halls echo with strange noises.",
+      "icon": "hospital.svg",
+      "x": 0,
+      "y": 2,
+      "tags": [
+        "hospital",
+        "medical"
+      ],
+      "searchable": true,
+      "dangerous": true
+    },
+    {
+      "name": "Southside Grocery",
+      "description": "Rotting produce and looted shelves. Still, something might remain untouched.",
+      "icon": "grocery.svg",
+      "x": 1,
+      "y": 2,
+      "tags": [
+        "commercial",
+        "grocery"
+      ],
+      "searchable": true,
+      "dangerous": false
+    },
+    {
+      "name": "Abandoned Apartment Block",
+      "description": "Multiple floors of broken windows and silent hallways. Could be a place to rest or a trap.",
+      "icon": "apartment.svg",
+      "x": 2,
+      "y": 2,
+      "tags": [
+        "residential"
+      ],
+      "searchable": true,
+      "dangerous": false
+    },
+    {
+      "name": "Abandoned Apartment Block",
+      "description": "Multiple floors of broken windows and silent hallways. Could be a place to rest or a trap.",
+      "icon": "apartment.svg",
+      "x": 3,
+      "y": 2,
+      "tags": [
+        "residential"
+      ],
+      "searchable": true,
+      "dangerous": false
+    },
+    {
+      "name": "Evergreen Police Department",
+      "description": "A rundown police precinct, looted and scarred from the first wave of chaos.",
+      "icon": "police_station.svg",
+      "x": 4,
+      "y": 2,
+      "tags": [
+        "government",
+        "police"
+      ],
+      "searchable": true,
+      "dangerous": true
+    },
+    {
+      "name": "Old Rail Yard",
+      "description": "Rusted trains and scattered crates. Dangerous gangs are rumored to control this area.",
+      "icon": "trainyard.svg",
+      "x": 5,
+      "y": 2,
+      "tags": [
+        "industrial",
+        "transport"
+      ],
+      "searchable": false,
+      "dangerous": true
+    },
+    {
+      "name": "Evergreen Police Department",
+      "description": "A rundown police precinct, looted and scarred from the first wave of chaos.",
+      "icon": "police_station.svg",
+      "x": 6,
+      "y": 2,
+      "tags": [
+        "government",
+        "police"
+      ],
+      "searchable": true,
+      "dangerous": true
+    },
+    {
+      "name": "Sunset Valley Hospital",
+      "description": "The hospital is overrun. Supplies are scarce, and the halls echo with strange noises.",
+      "icon": "hospital.svg",
+      "x": 7,
+      "y": 2,
+      "tags": [
+        "hospital",
+        "medical"
+      ],
+      "searchable": true,
+      "dangerous": true
+    },
+    {
+      "name": "Southside Grocery",
+      "description": "Rotting produce and looted shelves. Still, something might remain untouched.",
+      "icon": "grocery.svg",
+      "x": 8,
+      "y": 2,
+      "tags": [
+        "commercial",
+        "grocery"
+      ],
+      "searchable": true,
+      "dangerous": false
+    },
+    {
+      "name": "Abandoned Apartment Block",
+      "description": "Multiple floors of broken windows and silent hallways. Could be a place to rest or a trap.",
+      "icon": "apartment.svg",
+      "x": 9,
+      "y": 2,
+      "tags": [
+        "residential"
+      ],
+      "searchable": true,
+      "dangerous": false
+    },
+    {
+      "name": "Evergreen Police Department",
+      "description": "A rundown police precinct, looted and scarred from the first wave of chaos.",
+      "icon": "police_station.svg",
+      "x": 10,
+      "y": 2,
+      "tags": [
+        "government",
+        "police"
+      ],
+      "searchable": true,
+      "dangerous": true
+    },
+    {
+      "name": "Southside Grocery",
+      "description": "Rotting produce and looted shelves. Still, something might remain untouched.",
+      "icon": "grocery.svg",
+      "x": 11,
+      "y": 2,
+      "tags": [
+        "commercial",
+        "grocery"
+      ],
+      "searchable": true,
+      "dangerous": false
+    },
+    {
+      "name": "Southside Grocery",
+      "description": "Rotting produce and looted shelves. Still, something might remain untouched.",
+      "icon": "grocery.svg",
+      "x": 12,
+      "y": 2,
+      "tags": [
+        "commercial",
+        "grocery"
+      ],
+      "searchable": true,
+      "dangerous": false
+    },
+    {
+      "name": "Old Rail Yard",
+      "description": "Rusted trains and scattered crates. Dangerous gangs are rumored to control this area.",
+      "icon": "trainyard.svg",
+      "x": 13,
+      "y": 2,
+      "tags": [
+        "industrial",
+        "transport"
+      ],
+      "searchable": false,
+      "dangerous": true
+    },
+    {
+      "name": "Southside Grocery",
+      "description": "Rotting produce and looted shelves. Still, something might remain untouched.",
+      "icon": "grocery.svg",
+      "x": 14,
+      "y": 2,
+      "tags": [
+        "commercial",
+        "grocery"
+      ],
+      "searchable": true,
+      "dangerous": false
+    },
+    {
+      "name": "Sunset Valley Hospital",
+      "description": "The hospital is overrun. Supplies are scarce, and the halls echo with strange noises.",
+      "icon": "hospital.svg",
+      "x": 15,
+      "y": 2,
+      "tags": [
+        "hospital",
+        "medical"
+      ],
+      "searchable": true,
+      "dangerous": true
+    },
+    {
+      "name": "Evergreen Police Department",
+      "description": "A rundown police precinct, looted and scarred from the first wave of chaos.",
+      "icon": "police_station.svg",
+      "x": 16,
+      "y": 2,
+      "tags": [
+        "government",
+        "police"
+      ],
+      "searchable": true,
+      "dangerous": true
+    },
+    {
+      "name": "Southside Grocery",
+      "description": "Rotting produce and looted shelves. Still, something might remain untouched.",
+      "icon": "grocery.svg",
+      "x": 17,
+      "y": 2,
+      "tags": [
+        "commercial",
+        "grocery"
+      ],
+      "searchable": true,
+      "dangerous": false
+    },
+    {
+      "name": "Evergreen Police Department",
+      "description": "A rundown police precinct, looted and scarred from the first wave of chaos.",
+      "icon": "police_station.svg",
+      "x": 18,
+      "y": 2,
+      "tags": [
+        "government",
+        "police"
+      ],
+      "searchable": true,
+      "dangerous": true
+    },
+    {
+      "name": "Old Rail Yard",
+      "description": "Rusted trains and scattered crates. Dangerous gangs are rumored to control this area.",
+      "icon": "trainyard.svg",
+      "x": 19,
+      "y": 2,
+      "tags": [
+        "industrial",
+        "transport"
+      ],
+      "searchable": false,
+      "dangerous": true
+    },
+    {
+      "name": "Abandoned Apartment Block",
+      "description": "Multiple floors of broken windows and silent hallways. Could be a place to rest or a trap.",
+      "icon": "apartment.svg",
+      "x": 0,
+      "y": 3,
+      "tags": [
+        "residential"
+      ],
+      "searchable": true,
+      "dangerous": false
+    },
+    {
+      "name": "Southside Grocery",
+      "description": "Rotting produce and looted shelves. Still, something might remain untouched.",
+      "icon": "grocery.svg",
+      "x": 1,
+      "y": 3,
+      "tags": [
+        "commercial",
+        "grocery"
+      ],
+      "searchable": true,
+      "dangerous": false
+    },
+    {
+      "name": "Evergreen Police Department",
+      "description": "A rundown police precinct, looted and scarred from the first wave of chaos.",
+      "icon": "police_station.svg",
+      "x": 2,
+      "y": 3,
+      "tags": [
+        "government",
+        "police"
+      ],
+      "searchable": true,
+      "dangerous": true
+    },
+    {
+      "name": "Sunset Valley Hospital",
+      "description": "The hospital is overrun. Supplies are scarce, and the halls echo with strange noises.",
+      "icon": "hospital.svg",
+      "x": 3,
+      "y": 3,
+      "tags": [
+        "hospital",
+        "medical"
+      ],
+      "searchable": true,
+      "dangerous": true
+    },
+    {
+      "name": "Sunset Valley Hospital",
+      "description": "The hospital is overrun. Supplies are scarce, and the halls echo with strange noises.",
+      "icon": "hospital.svg",
+      "x": 4,
+      "y": 3,
+      "tags": [
+        "hospital",
+        "medical"
+      ],
+      "searchable": true,
+      "dangerous": true
+    },
+    {
+      "name": "Southside Grocery",
+      "description": "Rotting produce and looted shelves. Still, something might remain untouched.",
+      "icon": "grocery.svg",
+      "x": 5,
+      "y": 3,
+      "tags": [
+        "commercial",
+        "grocery"
+      ],
+      "searchable": true,
+      "dangerous": false
+    },
+    {
+      "name": "Southside Grocery",
+      "description": "Rotting produce and looted shelves. Still, something might remain untouched.",
+      "icon": "grocery.svg",
+      "x": 6,
+      "y": 3,
+      "tags": [
+        "commercial",
+        "grocery"
+      ],
+      "searchable": true,
+      "dangerous": false
+    },
+    {
+      "name": "Evergreen Police Department",
+      "description": "A rundown police precinct, looted and scarred from the first wave of chaos.",
+      "icon": "police_station.svg",
+      "x": 7,
+      "y": 3,
+      "tags": [
+        "government",
+        "police"
+      ],
+      "searchable": true,
+      "dangerous": true
+    },
+    {
+      "name": "Evergreen Police Department",
+      "description": "A rundown police precinct, looted and scarred from the first wave of chaos.",
+      "icon": "police_station.svg",
+      "x": 8,
+      "y": 3,
+      "tags": [
+        "government",
+        "police"
+      ],
+      "searchable": true,
+      "dangerous": true
+    },
+    {
+      "name": "Old Rail Yard",
+      "description": "Rusted trains and scattered crates. Dangerous gangs are rumored to control this area.",
+      "icon": "trainyard.svg",
+      "x": 9,
+      "y": 3,
+      "tags": [
+        "industrial",
+        "transport"
+      ],
+      "searchable": false,
+      "dangerous": true
+    },
+    {
+      "name": "Old Rail Yard",
+      "description": "Rusted trains and scattered crates. Dangerous gangs are rumored to control this area.",
+      "icon": "trainyard.svg",
+      "x": 10,
+      "y": 3,
+      "tags": [
+        "industrial",
+        "transport"
+      ],
+      "searchable": false,
+      "dangerous": true
+    },
+    {
+      "name": "Sunset Valley Hospital",
+      "description": "The hospital is overrun. Supplies are scarce, and the halls echo with strange noises.",
+      "icon": "hospital.svg",
+      "x": 11,
+      "y": 3,
+      "tags": [
+        "hospital",
+        "medical"
+      ],
+      "searchable": true,
+      "dangerous": true
+    },
+    {
+      "name": "Abandoned Apartment Block",
+      "description": "Multiple floors of broken windows and silent hallways. Could be a place to rest or a trap.",
+      "icon": "apartment.svg",
+      "x": 12,
+      "y": 3,
+      "tags": [
+        "residential"
+      ],
+      "searchable": true,
+      "dangerous": false
+    },
+    {
+      "name": "Old Rail Yard",
+      "description": "Rusted trains and scattered crates. Dangerous gangs are rumored to control this area.",
+      "icon": "trainyard.svg",
+      "x": 13,
+      "y": 3,
+      "tags": [
+        "industrial",
+        "transport"
+      ],
+      "searchable": false,
+      "dangerous": true
+    },
+    {
+      "name": "Southside Grocery",
+      "description": "Rotting produce and looted shelves. Still, something might remain untouched.",
+      "icon": "grocery.svg",
+      "x": 14,
+      "y": 3,
+      "tags": [
+        "commercial",
+        "grocery"
+      ],
+      "searchable": true,
+      "dangerous": false
+    },
+    {
+      "name": "Southside Grocery",
+      "description": "Rotting produce and looted shelves. Still, something might remain untouched.",
+      "icon": "grocery.svg",
+      "x": 15,
+      "y": 3,
+      "tags": [
+        "commercial",
+        "grocery"
+      ],
+      "searchable": true,
+      "dangerous": false
+    },
+    {
+      "name": "Sunset Valley Hospital",
+      "description": "The hospital is overrun. Supplies are scarce, and the halls echo with strange noises.",
+      "icon": "hospital.svg",
+      "x": 16,
+      "y": 3,
+      "tags": [
+        "hospital",
+        "medical"
+      ],
+      "searchable": true,
+      "dangerous": true
+    },
+    {
+      "name": "Old Rail Yard",
+      "description": "Rusted trains and scattered crates. Dangerous gangs are rumored to control this area.",
+      "icon": "trainyard.svg",
+      "x": 17,
+      "y": 3,
+      "tags": [
+        "industrial",
+        "transport"
+      ],
+      "searchable": false,
+      "dangerous": true
+    },
+    {
+      "name": "Southside Grocery",
+      "description": "Rotting produce and looted shelves. Still, something might remain untouched.",
+      "icon": "grocery.svg",
+      "x": 18,
+      "y": 3,
+      "tags": [
+        "commercial",
+        "grocery"
+      ],
+      "searchable": true,
+      "dangerous": false
+    },
+    {
+      "name": "Abandoned Apartment Block",
+      "description": "Multiple floors of broken windows and silent hallways. Could be a place to rest or a trap.",
+      "icon": "apartment.svg",
+      "x": 19,
+      "y": 3,
+      "tags": [
+        "residential"
+      ],
+      "searchable": true,
+      "dangerous": false
+    },
+    {
+      "name": "Old Rail Yard",
+      "description": "Rusted trains and scattered crates. Dangerous gangs are rumored to control this area.",
+      "icon": "trainyard.svg",
+      "x": 0,
+      "y": 4,
+      "tags": [
+        "industrial",
+        "transport"
+      ],
+      "searchable": false,
+      "dangerous": true
+    },
+    {
+      "name": "Southside Grocery",
+      "description": "Rotting produce and looted shelves. Still, something might remain untouched.",
+      "icon": "grocery.svg",
+      "x": 1,
+      "y": 4,
+      "tags": [
+        "commercial",
+        "grocery"
+      ],
+      "searchable": true,
+      "dangerous": false
+    },
+    {
+      "name": "Old Rail Yard",
+      "description": "Rusted trains and scattered crates. Dangerous gangs are rumored to control this area.",
+      "icon": "trainyard.svg",
+      "x": 2,
+      "y": 4,
+      "tags": [
+        "industrial",
+        "transport"
+      ],
+      "searchable": false,
+      "dangerous": true
+    },
+    {
+      "name": "Evergreen Police Department",
+      "description": "A rundown police precinct, looted and scarred from the first wave of chaos.",
+      "icon": "police_station.svg",
+      "x": 3,
+      "y": 4,
+      "tags": [
+        "government",
+        "police"
+      ],
+      "searchable": true,
+      "dangerous": true
+    },
+    {
+      "name": "Evergreen Police Department",
+      "description": "A rundown police precinct, looted and scarred from the first wave of chaos.",
+      "icon": "police_station.svg",
+      "x": 4,
+      "y": 4,
+      "tags": [
+        "government",
+        "police"
+      ],
+      "searchable": true,
+      "dangerous": true
+    },
+    {
+      "name": "Sunset Valley Hospital",
+      "description": "The hospital is overrun. Supplies are scarce, and the halls echo with strange noises.",
+      "icon": "hospital.svg",
+      "x": 5,
+      "y": 4,
+      "tags": [
+        "hospital",
+        "medical"
+      ],
+      "searchable": true,
+      "dangerous": true
+    },
+    {
+      "name": "Abandoned Apartment Block",
+      "description": "Multiple floors of broken windows and silent hallways. Could be a place to rest or a trap.",
+      "icon": "apartment.svg",
+      "x": 6,
+      "y": 4,
+      "tags": [
+        "residential"
+      ],
+      "searchable": true,
+      "dangerous": false
+    },
+    {
+      "name": "Southside Grocery",
+      "description": "Rotting produce and looted shelves. Still, something might remain untouched.",
+      "icon": "grocery.svg",
+      "x": 7,
+      "y": 4,
+      "tags": [
+        "commercial",
+        "grocery"
+      ],
+      "searchable": true,
+      "dangerous": false
+    },
+    {
+      "name": "Southside Grocery",
+      "description": "Rotting produce and looted shelves. Still, something might remain untouched.",
+      "icon": "grocery.svg",
+      "x": 8,
+      "y": 4,
+      "tags": [
+        "commercial",
+        "grocery"
+      ],
+      "searchable": true,
+      "dangerous": false
+    },
+    {
+      "name": "Old Rail Yard",
+      "description": "Rusted trains and scattered crates. Dangerous gangs are rumored to control this area.",
+      "icon": "trainyard.svg",
+      "x": 9,
+      "y": 4,
+      "tags": [
+        "industrial",
+        "transport"
+      ],
+      "searchable": false,
+      "dangerous": true
+    },
+    {
+      "name": "Abandoned Apartment Block",
+      "description": "Multiple floors of broken windows and silent hallways. Could be a place to rest or a trap.",
+      "icon": "apartment.svg",
+      "x": 10,
+      "y": 4,
+      "tags": [
+        "residential"
+      ],
+      "searchable": true,
+      "dangerous": false
+    },
+    {
+      "name": "Old Rail Yard",
+      "description": "Rusted trains and scattered crates. Dangerous gangs are rumored to control this area.",
+      "icon": "trainyard.svg",
+      "x": 11,
+      "y": 4,
+      "tags": [
+        "industrial",
+        "transport"
+      ],
+      "searchable": false,
+      "dangerous": true
+    },
+    {
+      "name": "Abandoned Apartment Block",
+      "description": "Multiple floors of broken windows and silent hallways. Could be a place to rest or a trap.",
+      "icon": "apartment.svg",
+      "x": 12,
+      "y": 4,
+      "tags": [
+        "residential"
+      ],
+      "searchable": true,
+      "dangerous": false
+    },
+    {
+      "name": "Southside Grocery",
+      "description": "Rotting produce and looted shelves. Still, something might remain untouched.",
+      "icon": "grocery.svg",
+      "x": 13,
+      "y": 4,
+      "tags": [
+        "commercial",
+        "grocery"
+      ],
+      "searchable": true,
+      "dangerous": false
+    },
+    {
+      "name": "Sunset Valley Hospital",
+      "description": "The hospital is overrun. Supplies are scarce, and the halls echo with strange noises.",
+      "icon": "hospital.svg",
+      "x": 14,
+      "y": 4,
+      "tags": [
+        "hospital",
+        "medical"
+      ],
+      "searchable": true,
+      "dangerous": true
+    },
+    {
+      "name": "Abandoned Apartment Block",
+      "description": "Multiple floors of broken windows and silent hallways. Could be a place to rest or a trap.",
+      "icon": "apartment.svg",
+      "x": 15,
+      "y": 4,
+      "tags": [
+        "residential"
+      ],
+      "searchable": true,
+      "dangerous": false
+    },
+    {
+      "name": "Sunset Valley Hospital",
+      "description": "The hospital is overrun. Supplies are scarce, and the halls echo with strange noises.",
+      "icon": "hospital.svg",
+      "x": 16,
+      "y": 4,
+      "tags": [
+        "hospital",
+        "medical"
+      ],
+      "searchable": true,
+      "dangerous": true
+    },
+    {
+      "name": "Abandoned Apartment Block",
+      "description": "Multiple floors of broken windows and silent hallways. Could be a place to rest or a trap.",
+      "icon": "apartment.svg",
+      "x": 17,
+      "y": 4,
+      "tags": [
+        "residential"
+      ],
+      "searchable": true,
+      "dangerous": false
+    },
+    {
+      "name": "Sunset Valley Hospital",
+      "description": "The hospital is overrun. Supplies are scarce, and the halls echo with strange noises.",
+      "icon": "hospital.svg",
+      "x": 18,
+      "y": 4,
+      "tags": [
+        "hospital",
+        "medical"
+      ],
+      "searchable": true,
+      "dangerous": true
+    },
+    {
+      "name": "Old Rail Yard",
+      "description": "Rusted trains and scattered crates. Dangerous gangs are rumored to control this area.",
+      "icon": "trainyard.svg",
+      "x": 19,
+      "y": 4,
+      "tags": [
+        "industrial",
+        "transport"
+      ],
+      "searchable": false,
+      "dangerous": true
+    },
+    {
+      "name": "Evergreen Police Department",
+      "description": "A rundown police precinct, looted and scarred from the first wave of chaos.",
+      "icon": "police_station.svg",
+      "x": 0,
+      "y": 5,
+      "tags": [
+        "government",
+        "police"
+      ],
+      "searchable": true,
+      "dangerous": true
+    },
+    {
+      "name": "Abandoned Apartment Block",
+      "description": "Multiple floors of broken windows and silent hallways. Could be a place to rest or a trap.",
+      "icon": "apartment.svg",
+      "x": 1,
+      "y": 5,
+      "tags": [
+        "residential"
+      ],
+      "searchable": true,
+      "dangerous": false
+    },
+    {
+      "name": "Old Rail Yard",
+      "description": "Rusted trains and scattered crates. Dangerous gangs are rumored to control this area.",
+      "icon": "trainyard.svg",
+      "x": 2,
+      "y": 5,
+      "tags": [
+        "industrial",
+        "transport"
+      ],
+      "searchable": false,
+      "dangerous": true
+    },
+    {
+      "name": "Sunset Valley Hospital",
+      "description": "The hospital is overrun. Supplies are scarce, and the halls echo with strange noises.",
+      "icon": "hospital.svg",
+      "x": 3,
+      "y": 5,
+      "tags": [
+        "hospital",
+        "medical"
+      ],
+      "searchable": true,
+      "dangerous": true
+    },
+    {
+      "name": "Sunset Valley Hospital",
+      "description": "The hospital is overrun. Supplies are scarce, and the halls echo with strange noises.",
+      "icon": "hospital.svg",
+      "x": 4,
+      "y": 5,
+      "tags": [
+        "hospital",
+        "medical"
+      ],
+      "searchable": true,
+      "dangerous": true
+    },
+    {
+      "name": "Southside Grocery",
+      "description": "Rotting produce and looted shelves. Still, something might remain untouched.",
+      "icon": "grocery.svg",
+      "x": 5,
+      "y": 5,
+      "tags": [
+        "commercial",
+        "grocery"
+      ],
+      "searchable": true,
+      "dangerous": false
+    },
+    {
+      "name": "Abandoned Apartment Block",
+      "description": "Multiple floors of broken windows and silent hallways. Could be a place to rest or a trap.",
+      "icon": "apartment.svg",
+      "x": 6,
+      "y": 5,
+      "tags": [
+        "residential"
+      ],
+      "searchable": true,
+      "dangerous": false
+    },
+    {
+      "name": "Southside Grocery",
+      "description": "Rotting produce and looted shelves. Still, something might remain untouched.",
+      "icon": "grocery.svg",
+      "x": 7,
+      "y": 5,
+      "tags": [
+        "commercial",
+        "grocery"
+      ],
+      "searchable": true,
+      "dangerous": false
+    },
+    {
+      "name": "Abandoned Apartment Block",
+      "description": "Multiple floors of broken windows and silent hallways. Could be a place to rest or a trap.",
+      "icon": "apartment.svg",
+      "x": 8,
+      "y": 5,
+      "tags": [
+        "residential"
+      ],
+      "searchable": true,
+      "dangerous": false
+    },
+    {
+      "name": "Southside Grocery",
+      "description": "Rotting produce and looted shelves. Still, something might remain untouched.",
+      "icon": "grocery.svg",
+      "x": 9,
+      "y": 5,
+      "tags": [
+        "commercial",
+        "grocery"
+      ],
+      "searchable": true,
+      "dangerous": false
+    },
+    {
+      "name": "Southside Grocery",
+      "description": "Rotting produce and looted shelves. Still, something might remain untouched.",
+      "icon": "grocery.svg",
+      "x": 10,
+      "y": 5,
+      "tags": [
+        "commercial",
+        "grocery"
+      ],
+      "searchable": true,
+      "dangerous": false
+    },
+    {
+      "name": "Evergreen Police Department",
+      "description": "A rundown police precinct, looted and scarred from the first wave of chaos.",
+      "icon": "police_station.svg",
+      "x": 11,
+      "y": 5,
+      "tags": [
+        "government",
+        "police"
+      ],
+      "searchable": true,
+      "dangerous": true
+    },
+    {
+      "name": "Abandoned Apartment Block",
+      "description": "Multiple floors of broken windows and silent hallways. Could be a place to rest or a trap.",
+      "icon": "apartment.svg",
+      "x": 12,
+      "y": 5,
+      "tags": [
+        "residential"
+      ],
+      "searchable": true,
+      "dangerous": false
+    },
+    {
+      "name": "Old Rail Yard",
+      "description": "Rusted trains and scattered crates. Dangerous gangs are rumored to control this area.",
+      "icon": "trainyard.svg",
+      "x": 13,
+      "y": 5,
+      "tags": [
+        "industrial",
+        "transport"
+      ],
+      "searchable": false,
+      "dangerous": true
+    },
+    {
+      "name": "Old Rail Yard",
+      "description": "Rusted trains and scattered crates. Dangerous gangs are rumored to control this area.",
+      "icon": "trainyard.svg",
+      "x": 14,
+      "y": 5,
+      "tags": [
+        "industrial",
+        "transport"
+      ],
+      "searchable": false,
+      "dangerous": true
+    },
+    {
+      "name": "Sunset Valley Hospital",
+      "description": "The hospital is overrun. Supplies are scarce, and the halls echo with strange noises.",
+      "icon": "hospital.svg",
+      "x": 15,
+      "y": 5,
+      "tags": [
+        "hospital",
+        "medical"
+      ],
+      "searchable": true,
+      "dangerous": true
+    },
+    {
+      "name": "Abandoned Apartment Block",
+      "description": "Multiple floors of broken windows and silent hallways. Could be a place to rest or a trap.",
+      "icon": "apartment.svg",
+      "x": 16,
+      "y": 5,
+      "tags": [
+        "residential"
+      ],
+      "searchable": true,
+      "dangerous": false
+    },
+    {
+      "name": "Abandoned Apartment Block",
+      "description": "Multiple floors of broken windows and silent hallways. Could be a place to rest or a trap.",
+      "icon": "apartment.svg",
+      "x": 17,
+      "y": 5,
+      "tags": [
+        "residential"
+      ],
+      "searchable": true,
+      "dangerous": false
+    },
+    {
+      "name": "Abandoned Apartment Block",
+      "description": "Multiple floors of broken windows and silent hallways. Could be a place to rest or a trap.",
+      "icon": "apartment.svg",
+      "x": 18,
+      "y": 5,
+      "tags": [
+        "residential"
+      ],
+      "searchable": true,
+      "dangerous": false
+    },
+    {
+      "name": "Abandoned Apartment Block",
+      "description": "Multiple floors of broken windows and silent hallways. Could be a place to rest or a trap.",
+      "icon": "apartment.svg",
+      "x": 19,
+      "y": 5,
+      "tags": [
+        "residential"
+      ],
+      "searchable": true,
+      "dangerous": false
+    },
+    {
+      "name": "Abandoned Apartment Block",
+      "description": "Multiple floors of broken windows and silent hallways. Could be a place to rest or a trap.",
+      "icon": "apartment.svg",
+      "x": 0,
+      "y": 6,
+      "tags": [
+        "residential"
+      ],
+      "searchable": true,
+      "dangerous": false
+    },
+    {
+      "name": "Old Rail Yard",
+      "description": "Rusted trains and scattered crates. Dangerous gangs are rumored to control this area.",
+      "icon": "trainyard.svg",
+      "x": 1,
+      "y": 6,
+      "tags": [
+        "industrial",
+        "transport"
+      ],
+      "searchable": false,
+      "dangerous": true
+    },
+    {
+      "name": "Sunset Valley Hospital",
+      "description": "The hospital is overrun. Supplies are scarce, and the halls echo with strange noises.",
+      "icon": "hospital.svg",
+      "x": 2,
+      "y": 6,
+      "tags": [
+        "hospital",
+        "medical"
+      ],
+      "searchable": true,
+      "dangerous": true
+    },
+    {
+      "name": "Evergreen Police Department",
+      "description": "A rundown police precinct, looted and scarred from the first wave of chaos.",
+      "icon": "police_station.svg",
+      "x": 3,
+      "y": 6,
+      "tags": [
+        "government",
+        "police"
+      ],
+      "searchable": true,
+      "dangerous": true
+    },
+    {
+      "name": "Abandoned Apartment Block",
+      "description": "Multiple floors of broken windows and silent hallways. Could be a place to rest or a trap.",
+      "icon": "apartment.svg",
+      "x": 4,
+      "y": 6,
+      "tags": [
+        "residential"
+      ],
+      "searchable": true,
+      "dangerous": false
+    },
+    {
+      "name": "Sunset Valley Hospital",
+      "description": "The hospital is overrun. Supplies are scarce, and the halls echo with strange noises.",
+      "icon": "hospital.svg",
+      "x": 5,
+      "y": 6,
+      "tags": [
+        "hospital",
+        "medical"
+      ],
+      "searchable": true,
+      "dangerous": true
+    },
+    {
+      "name": "Sunset Valley Hospital",
+      "description": "The hospital is overrun. Supplies are scarce, and the halls echo with strange noises.",
+      "icon": "hospital.svg",
+      "x": 6,
+      "y": 6,
+      "tags": [
+        "hospital",
+        "medical"
+      ],
+      "searchable": true,
+      "dangerous": true
+    },
+    {
+      "name": "Abandoned Apartment Block",
+      "description": "Multiple floors of broken windows and silent hallways. Could be a place to rest or a trap.",
+      "icon": "apartment.svg",
+      "x": 7,
+      "y": 6,
+      "tags": [
+        "residential"
+      ],
+      "searchable": true,
+      "dangerous": false
+    },
+    {
+      "name": "Sunset Valley Hospital",
+      "description": "The hospital is overrun. Supplies are scarce, and the halls echo with strange noises.",
+      "icon": "hospital.svg",
+      "x": 8,
+      "y": 6,
+      "tags": [
+        "hospital",
+        "medical"
+      ],
+      "searchable": true,
+      "dangerous": true
+    },
+    {
+      "name": "Sunset Valley Hospital",
+      "description": "The hospital is overrun. Supplies are scarce, and the halls echo with strange noises.",
+      "icon": "hospital.svg",
+      "x": 9,
+      "y": 6,
+      "tags": [
+        "hospital",
+        "medical"
+      ],
+      "searchable": true,
+      "dangerous": true
+    },
+    {
+      "name": "Old Rail Yard",
+      "description": "Rusted trains and scattered crates. Dangerous gangs are rumored to control this area.",
+      "icon": "trainyard.svg",
+      "x": 10,
+      "y": 6,
+      "tags": [
+        "industrial",
+        "transport"
+      ],
+      "searchable": false,
+      "dangerous": true
+    },
+    {
+      "name": "Abandoned Apartment Block",
+      "description": "Multiple floors of broken windows and silent hallways. Could be a place to rest or a trap.",
+      "icon": "apartment.svg",
+      "x": 11,
+      "y": 6,
+      "tags": [
+        "residential"
+      ],
+      "searchable": true,
+      "dangerous": false
+    },
+    {
+      "name": "Abandoned Apartment Block",
+      "description": "Multiple floors of broken windows and silent hallways. Could be a place to rest or a trap.",
+      "icon": "apartment.svg",
+      "x": 12,
+      "y": 6,
+      "tags": [
+        "residential"
+      ],
+      "searchable": true,
+      "dangerous": false
+    },
+    {
+      "name": "Southside Grocery",
+      "description": "Rotting produce and looted shelves. Still, something might remain untouched.",
+      "icon": "grocery.svg",
+      "x": 13,
+      "y": 6,
+      "tags": [
+        "commercial",
+        "grocery"
+      ],
+      "searchable": true,
+      "dangerous": false
+    },
+    {
+      "name": "Evergreen Police Department",
+      "description": "A rundown police precinct, looted and scarred from the first wave of chaos.",
+      "icon": "police_station.svg",
+      "x": 14,
+      "y": 6,
+      "tags": [
+        "government",
+        "police"
+      ],
+      "searchable": true,
+      "dangerous": true
+    },
+    {
+      "name": "Evergreen Police Department",
+      "description": "A rundown police precinct, looted and scarred from the first wave of chaos.",
+      "icon": "police_station.svg",
+      "x": 15,
+      "y": 6,
+      "tags": [
+        "government",
+        "police"
+      ],
+      "searchable": true,
+      "dangerous": true
+    },
+    {
+      "name": "Abandoned Apartment Block",
+      "description": "Multiple floors of broken windows and silent hallways. Could be a place to rest or a trap.",
+      "icon": "apartment.svg",
+      "x": 16,
+      "y": 6,
+      "tags": [
+        "residential"
+      ],
+      "searchable": true,
+      "dangerous": false
+    },
+    {
+      "name": "Old Rail Yard",
+      "description": "Rusted trains and scattered crates. Dangerous gangs are rumored to control this area.",
+      "icon": "trainyard.svg",
+      "x": 17,
+      "y": 6,
+      "tags": [
+        "industrial",
+        "transport"
+      ],
+      "searchable": false,
+      "dangerous": true
+    },
+    {
+      "name": "Abandoned Apartment Block",
+      "description": "Multiple floors of broken windows and silent hallways. Could be a place to rest or a trap.",
+      "icon": "apartment.svg",
+      "x": 18,
+      "y": 6,
+      "tags": [
+        "residential"
+      ],
+      "searchable": true,
+      "dangerous": false
+    },
+    {
+      "name": "Abandoned Apartment Block",
+      "description": "Multiple floors of broken windows and silent hallways. Could be a place to rest or a trap.",
+      "icon": "apartment.svg",
+      "x": 19,
+      "y": 6,
+      "tags": [
+        "residential"
+      ],
+      "searchable": true,
+      "dangerous": false
+    },
+    {
+      "name": "Old Rail Yard",
+      "description": "Rusted trains and scattered crates. Dangerous gangs are rumored to control this area.",
+      "icon": "trainyard.svg",
+      "x": 0,
+      "y": 7,
+      "tags": [
+        "industrial",
+        "transport"
+      ],
+      "searchable": false,
+      "dangerous": true
+    },
+    {
+      "name": "Abandoned Apartment Block",
+      "description": "Multiple floors of broken windows and silent hallways. Could be a place to rest or a trap.",
+      "icon": "apartment.svg",
+      "x": 1,
+      "y": 7,
+      "tags": [
+        "residential"
+      ],
+      "searchable": true,
+      "dangerous": false
+    },
+    {
+      "name": "Abandoned Apartment Block",
+      "description": "Multiple floors of broken windows and silent hallways. Could be a place to rest or a trap.",
+      "icon": "apartment.svg",
+      "x": 2,
+      "y": 7,
+      "tags": [
+        "residential"
+      ],
+      "searchable": true,
+      "dangerous": false
+    },
+    {
+      "name": "Old Rail Yard",
+      "description": "Rusted trains and scattered crates. Dangerous gangs are rumored to control this area.",
+      "icon": "trainyard.svg",
+      "x": 3,
+      "y": 7,
+      "tags": [
+        "industrial",
+        "transport"
+      ],
+      "searchable": false,
+      "dangerous": true
+    },
+    {
+      "name": "Sunset Valley Hospital",
+      "description": "The hospital is overrun. Supplies are scarce, and the halls echo with strange noises.",
+      "icon": "hospital.svg",
+      "x": 4,
+      "y": 7,
+      "tags": [
+        "hospital",
+        "medical"
+      ],
+      "searchable": true,
+      "dangerous": true
+    },
+    {
+      "name": "Evergreen Police Department",
+      "description": "A rundown police precinct, looted and scarred from the first wave of chaos.",
+      "icon": "police_station.svg",
+      "x": 5,
+      "y": 7,
+      "tags": [
+        "government",
+        "police"
+      ],
+      "searchable": true,
+      "dangerous": true
+    },
+    {
+      "name": "Sunset Valley Hospital",
+      "description": "The hospital is overrun. Supplies are scarce, and the halls echo with strange noises.",
+      "icon": "hospital.svg",
+      "x": 6,
+      "y": 7,
+      "tags": [
+        "hospital",
+        "medical"
+      ],
+      "searchable": true,
+      "dangerous": true
+    },
+    {
+      "name": "Abandoned Apartment Block",
+      "description": "Multiple floors of broken windows and silent hallways. Could be a place to rest or a trap.",
+      "icon": "apartment.svg",
+      "x": 7,
+      "y": 7,
+      "tags": [
+        "residential"
+      ],
+      "searchable": true,
+      "dangerous": false
+    },
+    {
+      "name": "Sunset Valley Hospital",
+      "description": "The hospital is overrun. Supplies are scarce, and the halls echo with strange noises.",
+      "icon": "hospital.svg",
+      "x": 8,
+      "y": 7,
+      "tags": [
+        "hospital",
+        "medical"
+      ],
+      "searchable": true,
+      "dangerous": true
+    },
+    {
+      "name": "Sunset Valley Hospital",
+      "description": "The hospital is overrun. Supplies are scarce, and the halls echo with strange noises.",
+      "icon": "hospital.svg",
+      "x": 9,
+      "y": 7,
+      "tags": [
+        "hospital",
+        "medical"
+      ],
+      "searchable": true,
+      "dangerous": true
+    },
+    {
+      "name": "Abandoned Apartment Block",
+      "description": "Multiple floors of broken windows and silent hallways. Could be a place to rest or a trap.",
+      "icon": "apartment.svg",
+      "x": 10,
+      "y": 7,
+      "tags": [
+        "residential"
+      ],
+      "searchable": true,
+      "dangerous": false
+    },
+    {
+      "name": "Sunset Valley Hospital",
+      "description": "The hospital is overrun. Supplies are scarce, and the halls echo with strange noises.",
+      "icon": "hospital.svg",
+      "x": 11,
+      "y": 7,
+      "tags": [
+        "hospital",
+        "medical"
+      ],
+      "searchable": true,
+      "dangerous": true
+    },
+    {
+      "name": "Southside Grocery",
+      "description": "Rotting produce and looted shelves. Still, something might remain untouched.",
+      "icon": "grocery.svg",
+      "x": 12,
+      "y": 7,
+      "tags": [
+        "commercial",
+        "grocery"
+      ],
+      "searchable": true,
+      "dangerous": false
+    },
+    {
+      "name": "Old Rail Yard",
+      "description": "Rusted trains and scattered crates. Dangerous gangs are rumored to control this area.",
+      "icon": "trainyard.svg",
+      "x": 13,
+      "y": 7,
+      "tags": [
+        "industrial",
+        "transport"
+      ],
+      "searchable": false,
+      "dangerous": true
+    },
+    {
+      "name": "Evergreen Police Department",
+      "description": "A rundown police precinct, looted and scarred from the first wave of chaos.",
+      "icon": "police_station.svg",
+      "x": 14,
+      "y": 7,
+      "tags": [
+        "government",
+        "police"
+      ],
+      "searchable": true,
+      "dangerous": true
+    },
+    {
+      "name": "Old Rail Yard",
+      "description": "Rusted trains and scattered crates. Dangerous gangs are rumored to control this area.",
+      "icon": "trainyard.svg",
+      "x": 15,
+      "y": 7,
+      "tags": [
+        "industrial",
+        "transport"
+      ],
+      "searchable": false,
+      "dangerous": true
+    },
+    {
+      "name": "Abandoned Apartment Block",
+      "description": "Multiple floors of broken windows and silent hallways. Could be a place to rest or a trap.",
+      "icon": "apartment.svg",
+      "x": 16,
+      "y": 7,
+      "tags": [
+        "residential"
+      ],
+      "searchable": true,
+      "dangerous": false
+    },
+    {
+      "name": "Abandoned Apartment Block",
+      "description": "Multiple floors of broken windows and silent hallways. Could be a place to rest or a trap.",
+      "icon": "apartment.svg",
+      "x": 17,
+      "y": 7,
+      "tags": [
+        "residential"
+      ],
+      "searchable": true,
+      "dangerous": false
+    },
+    {
+      "name": "Abandoned Apartment Block",
+      "description": "Multiple floors of broken windows and silent hallways. Could be a place to rest or a trap.",
+      "icon": "apartment.svg",
+      "x": 18,
+      "y": 7,
+      "tags": [
+        "residential"
+      ],
+      "searchable": true,
+      "dangerous": false
+    },
+    {
+      "name": "Evergreen Police Department",
+      "description": "A rundown police precinct, looted and scarred from the first wave of chaos.",
+      "icon": "police_station.svg",
+      "x": 19,
+      "y": 7,
+      "tags": [
+        "government",
+        "police"
+      ],
+      "searchable": true,
+      "dangerous": true
+    },
+    {
+      "name": "Southside Grocery",
+      "description": "Rotting produce and looted shelves. Still, something might remain untouched.",
+      "icon": "grocery.svg",
+      "x": 0,
+      "y": 8,
+      "tags": [
+        "commercial",
+        "grocery"
+      ],
+      "searchable": true,
+      "dangerous": false
+    },
+    {
+      "name": "Southside Grocery",
+      "description": "Rotting produce and looted shelves. Still, something might remain untouched.",
+      "icon": "grocery.svg",
+      "x": 1,
+      "y": 8,
+      "tags": [
+        "commercial",
+        "grocery"
+      ],
+      "searchable": true,
+      "dangerous": false
+    },
+    {
+      "name": "Abandoned Apartment Block",
+      "description": "Multiple floors of broken windows and silent hallways. Could be a place to rest or a trap.",
+      "icon": "apartment.svg",
+      "x": 2,
+      "y": 8,
+      "tags": [
+        "residential"
+      ],
+      "searchable": true,
+      "dangerous": false
+    },
+    {
+      "name": "Abandoned Apartment Block",
+      "description": "Multiple floors of broken windows and silent hallways. Could be a place to rest or a trap.",
+      "icon": "apartment.svg",
+      "x": 3,
+      "y": 8,
+      "tags": [
+        "residential"
+      ],
+      "searchable": true,
+      "dangerous": false
+    },
+    {
+      "name": "Evergreen Police Department",
+      "description": "A rundown police precinct, looted and scarred from the first wave of chaos.",
+      "icon": "police_station.svg",
+      "x": 4,
+      "y": 8,
+      "tags": [
+        "government",
+        "police"
+      ],
+      "searchable": true,
+      "dangerous": true
+    },
+    {
+      "name": "Southside Grocery",
+      "description": "Rotting produce and looted shelves. Still, something might remain untouched.",
+      "icon": "grocery.svg",
+      "x": 5,
+      "y": 8,
+      "tags": [
+        "commercial",
+        "grocery"
+      ],
+      "searchable": true,
+      "dangerous": false
+    },
+    {
+      "name": "Old Rail Yard",
+      "description": "Rusted trains and scattered crates. Dangerous gangs are rumored to control this area.",
+      "icon": "trainyard.svg",
+      "x": 6,
+      "y": 8,
+      "tags": [
+        "industrial",
+        "transport"
+      ],
+      "searchable": false,
+      "dangerous": true
+    },
+    {
+      "name": "Old Rail Yard",
+      "description": "Rusted trains and scattered crates. Dangerous gangs are rumored to control this area.",
+      "icon": "trainyard.svg",
+      "x": 7,
+      "y": 8,
+      "tags": [
+        "industrial",
+        "transport"
+      ],
+      "searchable": false,
+      "dangerous": true
+    },
+    {
+      "name": "Southside Grocery",
+      "description": "Rotting produce and looted shelves. Still, something might remain untouched.",
+      "icon": "grocery.svg",
+      "x": 8,
+      "y": 8,
+      "tags": [
+        "commercial",
+        "grocery"
+      ],
+      "searchable": true,
+      "dangerous": false
+    },
+    {
+      "name": "Old Rail Yard",
+      "description": "Rusted trains and scattered crates. Dangerous gangs are rumored to control this area.",
+      "icon": "trainyard.svg",
+      "x": 9,
+      "y": 8,
+      "tags": [
+        "industrial",
+        "transport"
+      ],
+      "searchable": false,
+      "dangerous": true
+    },
+    {
+      "name": "Abandoned Apartment Block",
+      "description": "Multiple floors of broken windows and silent hallways. Could be a place to rest or a trap.",
+      "icon": "apartment.svg",
+      "x": 10,
+      "y": 8,
+      "tags": [
+        "residential"
+      ],
+      "searchable": true,
+      "dangerous": false
+    },
+    {
+      "name": "Evergreen Police Department",
+      "description": "A rundown police precinct, looted and scarred from the first wave of chaos.",
+      "icon": "police_station.svg",
+      "x": 11,
+      "y": 8,
+      "tags": [
+        "government",
+        "police"
+      ],
+      "searchable": true,
+      "dangerous": true
+    },
+    {
+      "name": "Southside Grocery",
+      "description": "Rotting produce and looted shelves. Still, something might remain untouched.",
+      "icon": "grocery.svg",
+      "x": 12,
+      "y": 8,
+      "tags": [
+        "commercial",
+        "grocery"
+      ],
+      "searchable": true,
+      "dangerous": false
+    },
+    {
+      "name": "Southside Grocery",
+      "description": "Rotting produce and looted shelves. Still, something might remain untouched.",
+      "icon": "grocery.svg",
+      "x": 13,
+      "y": 8,
+      "tags": [
+        "commercial",
+        "grocery"
+      ],
+      "searchable": true,
+      "dangerous": false
+    },
+    {
+      "name": "Sunset Valley Hospital",
+      "description": "The hospital is overrun. Supplies are scarce, and the halls echo with strange noises.",
+      "icon": "hospital.svg",
+      "x": 14,
+      "y": 8,
+      "tags": [
+        "hospital",
+        "medical"
+      ],
+      "searchable": true,
+      "dangerous": true
+    },
+    {
+      "name": "Southside Grocery",
+      "description": "Rotting produce and looted shelves. Still, something might remain untouched.",
+      "icon": "grocery.svg",
+      "x": 15,
+      "y": 8,
+      "tags": [
+        "commercial",
+        "grocery"
+      ],
+      "searchable": true,
+      "dangerous": false
+    },
+    {
+      "name": "Old Rail Yard",
+      "description": "Rusted trains and scattered crates. Dangerous gangs are rumored to control this area.",
+      "icon": "trainyard.svg",
+      "x": 16,
+      "y": 8,
+      "tags": [
+        "industrial",
+        "transport"
+      ],
+      "searchable": false,
+      "dangerous": true
+    },
+    {
+      "name": "Abandoned Apartment Block",
+      "description": "Multiple floors of broken windows and silent hallways. Could be a place to rest or a trap.",
+      "icon": "apartment.svg",
+      "x": 17,
+      "y": 8,
+      "tags": [
+        "residential"
+      ],
+      "searchable": true,
+      "dangerous": false
+    },
+    {
+      "name": "Southside Grocery",
+      "description": "Rotting produce and looted shelves. Still, something might remain untouched.",
+      "icon": "grocery.svg",
+      "x": 18,
+      "y": 8,
+      "tags": [
+        "commercial",
+        "grocery"
+      ],
+      "searchable": true,
+      "dangerous": false
+    },
+    {
+      "name": "Old Rail Yard",
+      "description": "Rusted trains and scattered crates. Dangerous gangs are rumored to control this area.",
+      "icon": "trainyard.svg",
+      "x": 19,
+      "y": 8,
+      "tags": [
+        "industrial",
+        "transport"
+      ],
+      "searchable": false,
+      "dangerous": true
+    },
+    {
+      "name": "Evergreen Police Department",
+      "description": "A rundown police precinct, looted and scarred from the first wave of chaos.",
+      "icon": "police_station.svg",
+      "x": 0,
+      "y": 9,
+      "tags": [
+        "government",
+        "police"
+      ],
+      "searchable": true,
+      "dangerous": true
+    },
+    {
+      "name": "Sunset Valley Hospital",
+      "description": "The hospital is overrun. Supplies are scarce, and the halls echo with strange noises.",
+      "icon": "hospital.svg",
+      "x": 1,
+      "y": 9,
+      "tags": [
+        "hospital",
+        "medical"
+      ],
+      "searchable": true,
+      "dangerous": true
+    },
+    {
+      "name": "Evergreen Police Department",
+      "description": "A rundown police precinct, looted and scarred from the first wave of chaos.",
+      "icon": "police_station.svg",
+      "x": 2,
+      "y": 9,
+      "tags": [
+        "government",
+        "police"
+      ],
+      "searchable": true,
+      "dangerous": true
+    },
+    {
+      "name": "Old Rail Yard",
+      "description": "Rusted trains and scattered crates. Dangerous gangs are rumored to control this area.",
+      "icon": "trainyard.svg",
+      "x": 3,
+      "y": 9,
+      "tags": [
+        "industrial",
+        "transport"
+      ],
+      "searchable": false,
+      "dangerous": true
+    },
+    {
+      "name": "Abandoned Apartment Block",
+      "description": "Multiple floors of broken windows and silent hallways. Could be a place to rest or a trap.",
+      "icon": "apartment.svg",
+      "x": 4,
+      "y": 9,
+      "tags": [
+        "residential"
+      ],
+      "searchable": true,
+      "dangerous": false
+    },
+    {
+      "name": "Old Rail Yard",
+      "description": "Rusted trains and scattered crates. Dangerous gangs are rumored to control this area.",
+      "icon": "trainyard.svg",
+      "x": 5,
+      "y": 9,
+      "tags": [
+        "industrial",
+        "transport"
+      ],
+      "searchable": false,
+      "dangerous": true
+    },
+    {
+      "name": "Sunset Valley Hospital",
+      "description": "The hospital is overrun. Supplies are scarce, and the halls echo with strange noises.",
+      "icon": "hospital.svg",
+      "x": 6,
+      "y": 9,
+      "tags": [
+        "hospital",
+        "medical"
+      ],
+      "searchable": true,
+      "dangerous": true
+    },
+    {
+      "name": "Abandoned Apartment Block",
+      "description": "Multiple floors of broken windows and silent hallways. Could be a place to rest or a trap.",
+      "icon": "apartment.svg",
+      "x": 7,
+      "y": 9,
+      "tags": [
+        "residential"
+      ],
+      "searchable": true,
+      "dangerous": false
+    },
+    {
+      "name": "Old Rail Yard",
+      "description": "Rusted trains and scattered crates. Dangerous gangs are rumored to control this area.",
+      "icon": "trainyard.svg",
+      "x": 8,
+      "y": 9,
+      "tags": [
+        "industrial",
+        "transport"
+      ],
+      "searchable": false,
+      "dangerous": true
+    },
+    {
+      "name": "Abandoned Apartment Block",
+      "description": "Multiple floors of broken windows and silent hallways. Could be a place to rest or a trap.",
+      "icon": "apartment.svg",
+      "x": 9,
+      "y": 9,
+      "tags": [
+        "residential"
+      ],
+      "searchable": true,
+      "dangerous": false
+    },
+    {
+      "name": "Sunset Valley Hospital",
+      "description": "The hospital is overrun. Supplies are scarce, and the halls echo with strange noises.",
+      "icon": "hospital.svg",
+      "x": 10,
+      "y": 9,
+      "tags": [
+        "hospital",
+        "medical"
+      ],
+      "searchable": true,
+      "dangerous": true
+    },
+    {
+      "name": "Old Rail Yard",
+      "description": "Rusted trains and scattered crates. Dangerous gangs are rumored to control this area.",
+      "icon": "trainyard.svg",
+      "x": 11,
+      "y": 9,
+      "tags": [
+        "industrial",
+        "transport"
+      ],
+      "searchable": false,
+      "dangerous": true
+    },
+    {
+      "name": "Sunset Valley Hospital",
+      "description": "The hospital is overrun. Supplies are scarce, and the halls echo with strange noises.",
+      "icon": "hospital.svg",
+      "x": 12,
+      "y": 9,
+      "tags": [
+        "hospital",
+        "medical"
+      ],
+      "searchable": true,
+      "dangerous": true
+    },
+    {
+      "name": "Old Rail Yard",
+      "description": "Rusted trains and scattered crates. Dangerous gangs are rumored to control this area.",
+      "icon": "trainyard.svg",
+      "x": 13,
+      "y": 9,
+      "tags": [
+        "industrial",
+        "transport"
+      ],
+      "searchable": false,
+      "dangerous": true
+    },
+    {
+      "name": "Old Rail Yard",
+      "description": "Rusted trains and scattered crates. Dangerous gangs are rumored to control this area.",
+      "icon": "trainyard.svg",
+      "x": 14,
+      "y": 9,
+      "tags": [
+        "industrial",
+        "transport"
+      ],
+      "searchable": false,
+      "dangerous": true
+    },
+    {
+      "name": "Southside Grocery",
+      "description": "Rotting produce and looted shelves. Still, something might remain untouched.",
+      "icon": "grocery.svg",
+      "x": 15,
+      "y": 9,
+      "tags": [
+        "commercial",
+        "grocery"
+      ],
+      "searchable": true,
+      "dangerous": false
+    },
+    {
+      "name": "Old Rail Yard",
+      "description": "Rusted trains and scattered crates. Dangerous gangs are rumored to control this area.",
+      "icon": "trainyard.svg",
+      "x": 16,
+      "y": 9,
+      "tags": [
+        "industrial",
+        "transport"
+      ],
+      "searchable": false,
+      "dangerous": true
+    },
+    {
+      "name": "Evergreen Police Department",
+      "description": "A rundown police precinct, looted and scarred from the first wave of chaos.",
+      "icon": "police_station.svg",
+      "x": 17,
+      "y": 9,
+      "tags": [
+        "government",
+        "police"
+      ],
+      "searchable": true,
+      "dangerous": true
+    },
+    {
+      "name": "Evergreen Police Department",
+      "description": "A rundown police precinct, looted and scarred from the first wave of chaos.",
+      "icon": "police_station.svg",
+      "x": 18,
+      "y": 9,
+      "tags": [
+        "government",
+        "police"
+      ],
+      "searchable": true,
+      "dangerous": true
+    },
+    {
+      "name": "Old Rail Yard",
+      "description": "Rusted trains and scattered crates. Dangerous gangs are rumored to control this area.",
+      "icon": "trainyard.svg",
+      "x": 19,
+      "y": 9,
+      "tags": [
+        "industrial",
+        "transport"
+      ],
+      "searchable": false,
+      "dangerous": true
+    }
+  ]
+}

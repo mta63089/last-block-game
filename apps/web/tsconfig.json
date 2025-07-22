@@ -1,10 +1,10 @@
 {
-  "extends": "@workspace/typescript-config/nextjs.json",
+  "extends": "@last-block/typescript-config/nextjs.json",
   "compilerOptions": {
     "baseUrl": ".",
     "paths": {
       "@/*": ["./*"],
-      "@workspace/ui/*": ["../../packages/ui/src/*"]
+      "@last-block/ui/*": ["../../packages/ui/src/*"]
     },
     "plugins": [
       {

@@ -26,7 +26,7 @@ export default function RootLayout({
         className={`${fontSans.variable} ${fontMono.variable} font-sans antialiased`}
       >
         <Providers>
-          <main className="bg-background flex min-h-svh flex-1">
+          <main className="bg-background flex min-h-svh flex-1 flex-col">
             {children}
           </main>
         </Providers>

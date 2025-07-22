@@ -1,0 +1,174 @@
+// This is your Prisma schema file,
+// learn more about it in the docs: https://pris.ly/d/prisma-schema
+
+// Looking for ways to speed up your queries, or scale easily with your serverless or edge functions?
+// Try Prisma Accelerate: https://pris.ly/cli/accelerate-init
+
+generator client {
+  provider = "prisma-client-js"
+  output   = "../generated/prisma"
+}
+
+datasource db {
+  provider = "postgresql"
+  url      = env("DATABASE_URL")
+}
+
+enum PlayerClass {
+  zombie
+  firefighter
+  police
+  burglar
+  engineer
+  doctor
+  fast_food_employee
+  student
+}
+
+enum ItemType {
+  weapon
+  tool
+  consumable
+  valuable
+  material
+  equipment
+}
+
+enum Rarity {
+  common
+  uncommon
+  rare
+  epic
+  legendary
+}
+
+model User {
+  id            String    @id
+  name          String
+  email         String
+  emailVerified Boolean
+  image         String?
+  createdAt     DateTime
+  updatedAt     DateTime
+  sessions      Session[]
+  accounts      Account[]
+  players       Player[]
+  @@unique([email])
+  @@map("user")
+}
+
+model Session {
+  id        String   @id
+  expiresAt DateTime
+  token     String
+  createdAt DateTime
+  updatedAt DateTime
+  ipAddress String?
+  userAgent String?
+  userId    String
+  user      User     @relation(fields: [userId], references: [id], onDelete: Cascade)
+
+  @@unique([token])
+  @@map("session")
+}
+
+model Account {
+  id                    String    @id
+  accountId             String
+  providerId            String
+  userId                String
+  user                  User      @relation(fields: [userId], references: [id], onDelete: Cascade)
+  accessToken           String?
+  refreshToken          String?
+  idToken               String?
+  accessTokenExpiresAt  DateTime?
+  refreshTokenExpiresAt DateTime?
+  scope                 String?
+  password              String?
+  createdAt             DateTime
+  updatedAt             DateTime
+
+  @@map("account")
+}
+
+model Verification {
+  id         String    @id
+  identifier String
+  value      String
+  expiresAt  DateTime
+  createdAt  DateTime?
+  updatedAt  DateTime?
+
+  @@map("verification")
+}
+
+model Player {
+  id        String   @id @default(cuid())
+  name      String
+  avatarUrl String
+  class     PlayerClass
+  energy    Int
+  health    Int
+  positionX Int
+  positionY Int
+
+  userId String
+  user   User   @relation(fields: [userId], references: [id])
+
+  items   PlayerItem[]
+  tile    Tile?        @relation(fields: [tileId], references: [id])
+  tileId  String?
+}
+
+model Item {
+  id             String    @id @default(cuid())
+  name           String
+  damageModifier Int?
+  type           ItemType
+  weight         Int
+  rarity         Rarity
+
+  lootEntries LootEntry[]
+  ownedBy     PlayerItem[]
+}
+
+model PlayerItem {
+  id       String  @id @default(cuid())
+  player   Player  @relation(fields: [playerId], references: [id])
+  playerId String
+  item     Item    @relation(fields: [itemId], references: [id])
+  itemId   String
+}
+
+model Tile {
+  id          String      @id @default(cuid())
+  name        String
+  description String
+  icon        String
+  lastLooted  DateTime    @default(now())
+  coordX      Int
+  coordY      Int
+
+  skills     Skill[]
+  lootTable  LootEntry[]
+  players    Player[]
+}
+
+model LootEntry {
+  id     String  @id @default(cuid())
+  rate   Float
+  item   Item    @relation(fields: [itemId], references: [id])
+  itemId String
+  tile   Tile    @relation(fields: [tileId], references: [id])
+  tileId String
+}
+
+model Skill {
+  id          String @id @default(cuid())
+  name        String
+  description String
+  effectText  String
+
+  tileId String
+  tile   Tile   @relation(fields: [tileId], references: [id])
+}

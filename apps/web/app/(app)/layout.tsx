@@ -1,14 +1,14 @@
-import SiteHeader from "@/components/site-header";
+import SiteHeader from "@/components/site-header"
 
 export default function RootLayout({
   children,
 }: Readonly<{
-  children: React.ReactNode;
+  children: React.ReactNode
 }>) {
   return (
-    <>
+    <div>
       <SiteHeader />
-      <div className='flex flex-1'>{children}</div>
-    </>
-  );
+      <div className="flex flex-1">{children}</div>
+    </div>
+  )
 }

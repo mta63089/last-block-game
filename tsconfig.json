@@ -1,4 +1,3 @@
 {
-  "extends": "@workspace/typescript-config/base.json"
+  "extends": "@last-block/typescript-config/base.json"
 }
-
