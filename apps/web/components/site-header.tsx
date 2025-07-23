@@ -1,9 +1,10 @@
 "use client"
 
 import { useEffect, useState } from "react"
+import Image from "next/image"
 import Link from "next/link"
 import { AnimatePresence, easeInOut, motion } from "framer-motion"
-import { ArrowRight, Menu, Search, X, Zap } from "lucide-react"
+import { ArrowRight, Menu, X } from "lucide-react"
 
 interface NavItem {
   name: string
@@ -12,7 +13,7 @@ interface NavItem {
 
 const navItems: NavItem[] = [
   { name: "Home", href: "/" },
-  { name: "Contact", href: "/contact" },
+  { name: "Play Now", href: "/game" },
 ]
 
 export default function SiteHeader() {
@@ -73,7 +74,7 @@ export default function SiteHeader() {
   return (
     <>
       <motion.header
-        className={`left-0 right-0 top-0 z-50 transition-all duration-500 ${
+        className={`fixed left-0 right-0 top-0 z-50 transition-all duration-500 ${
           isScrolled
             ? "border-border/50 bg-background/80 border-b shadow-sm backdrop-blur-md"
             : "bg-transparent"
@@ -93,16 +94,17 @@ export default function SiteHeader() {
               <Link href="/" className="flex items-center space-x-3">
                 <div className="relative">
                   <div className="flex h-9 w-9 items-center justify-center rounded-xl bg-gradient-to-br from-rose-500 via-rose-600 to-rose-700 shadow-lg">
-                    <Zap className="h-5 w-5 text-white" />
+                    <Image
+                      src="/logo.png"
+                      alt="lastblock logo"
+                      fill
+                      className="object-cover text-white"
+                    />
                   </div>
-                  <div className="absolute -right-1 -top-1 h-3 w-3 animate-pulse rounded-full bg-green-400"></div>
                 </div>
                 <div className="flex flex-col">
-                  <span className="text-foreground text-lg font-bold">
+                  <span className="text-foreground font-mono text-4xl font-semibold tracking-wider">
                     Last Block
-                  </span>
-                  <span className="text-muted-foreground -mt-1 text-xs">
-                    Build faster
                   </span>
                 </div>
               </Link>
@@ -145,14 +147,6 @@ export default function SiteHeader() {
               className="hidden items-center space-x-3 lg:flex"
               variants={itemVariants}
             >
-              <motion.button
-                className="text-muted-foreground hover:bg-muted hover:text-foreground rounded-lg p-2 transition-colors duration-200"
-                whileHover={{ scale: 1.05 }}
-                whileTap={{ scale: 0.95 }}
-              >
-                <Search className="h-5 w-5" />
-              </motion.button>
-
               <Link
                 href="/sign-in"
                 className="text-foreground/80 hover:text-foreground px-4 py-2 text-sm font-medium transition-colors duration-200"

@@ -43,7 +43,7 @@ enum Rarity {
 }
 
 model User {
-  id            String    @id
+  id            String    @id @default(cuid())
   name          String
   email         String
   emailVerified Boolean
@@ -52,13 +52,13 @@ model User {
   updatedAt     DateTime
   sessions      Session[]
   accounts      Account[]
-  players       Player[]
+  player        Player?
   @@unique([email])
   @@map("user")
 }
 
 model Session {
-  id        String   @id
+  id        String   @id @default(cuid())
   expiresAt DateTime
   token     String
   createdAt DateTime
@@ -73,7 +73,7 @@ model Session {
 }
 
 model Account {
-  id                    String    @id
+  id                    String    @id @default(cuid())
   accountId             String
   providerId            String
   userId                String
@@ -112,7 +112,7 @@ model Player {
   positionX Int
   positionY Int
 
-  userId String
+  userId String @unique
   user   User   @relation(fields: [userId], references: [id])
 
   items   PlayerItem[]

@@ -1,39 +1,58 @@
-"use client";
+"use client"
 
-import { signOut, useSession } from "@/lib/auth-client";
-import { Button } from "@last-block/ui/components/button";
-import { useRouter } from "next/navigation";
-import { useEffect } from "react";
+import { useEffect } from "react"
+import { useRouter } from "next/navigation"
+
+import { Button } from "@last-block/ui/components/button"
+
+import { signOut, useSession } from "@/lib/auth-client"
+import { Icons } from "@/components/icons"
 
 export default function GamePage() {
-  const router = useRouter();
-  const { data: session, isPending } = useSession();
+  const router = useRouter()
+  const { data: session, isPending } = useSession()
 
   useEffect(() => {
     if (!isPending && !session?.user) {
-      router.push("/sign-in");
+      router.push("/sign-in")
     }
-  }, [isPending, session, router]);
+  }, [isPending, session, router])
 
   if (isPending)
-    return <p className="text-center mt-8 text-white">Loading...</p>;
+    return (
+      <div className="mx-auto flex h-screen max-w-md flex-col items-center justify-center space-y-4 p-6 text-white">
+        <Icons.spinner className="size-8 text-green-500" />
+        <p className="mt-8 text-center text-white">Loading...</p>
+      </div>
+    )
   if (!session?.user)
-    return <p className="text-center mt-8 text-white">Redirecting...</p>;
+    return (
+      <div className="mx-auto flex h-screen max-w-md flex-col items-center justify-center space-y-4 p-6 text-white">
+        <Icons.spinner className="size-8 text-green-500" />
+        <p className="mt-8 text-center text-white">Redirecting...</p>
+      </div>
+    )
 
   //add-start: destructure user from session
-  const { user } = session;
+  const { user } = session
 
+  // init game state
+  // see if there is players
+
+  if (!user) {
+    // take to character creation
+  }
   return (
-    <main className="max-w-md h-screen flex items-center justify-center flex-col mx-auto p-6 space-y-4 text-white">
+    <main className="mx-auto flex h-screen max-w-md flex-col items-center justify-center space-y-4 p-6 text-white">
       <h1 className="text-2xl font-bold">Dashboard</h1>
       <p>Welcome, {user.name || "User"}!</p>
       <p>Email: {user.email}</p>
       <Button
         onClick={() => signOut()}
-        className="w-full bg-white text-black font-medium rounded-md px-4 py-2 hover:bg-gray-200"
+        className="w-full rounded-md bg-white px-4 py-2 font-medium text-black hover:bg-gray-200"
       >
         Sign Out
       </Button>
     </main>
-  );
+  )
 }
