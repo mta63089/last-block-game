@@ -1,3 +1,4 @@
+// components/tile-icons.tsx
 type IconProps = React.HTMLAttributes<SVGElement>
 
 export const TileIcons = {

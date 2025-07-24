@@ -1,42 +1,58 @@
 import { Player } from "@/generated/prisma"
-import { create } from "zustand"
+import { Coordinates } from "@/types"
+import { createStore } from "zustand"
 
-import { isAdjacent } from "@/lib/grid"
-
-interface PlayerState {
+export type PlayerState = {
   player: Player
-  setPlayer: (p: Player) => void
-  move: (to: { x: number; y: number }) => void
 }
 
-export const usePlayerStore = create<PlayerState>((set, get) => ({
+export type PlayerActions = {
+  setPlayer: (player: Player) => void
+  updatePosition: (coords: Coordinates) => void
+  updateStats: (changes: Partial<Pick<Player, "energy" | "health">>) => void
+}
+
+export type PlayerStore = PlayerState & PlayerActions
+
+export const defaultInitState: PlayerState = {
   player: {
-    id: "mta630",
-    tileId: "default",
-    userId: "mta630",
-    name: "Survivor",
-    avatarUrl: "/icons/avatar.svg",
+    id: "default-player",
+    tileId: "default-tile",
+    userId: "default-user",
+    name: "DefaultPlayer",
+    avatarUrl: "/avatars/fallback.png",
     class: "burglar",
     energy: 25,
     health: 100,
     positionX: 3,
     positionY: 3,
   },
-  setPlayer: (p) => set({ player: p }),
-  move: (to) => {
-    const player = get().player
-    if (
-      player.energy <= 0 ||
-      !isAdjacent(player.positionX, player.positionY, to)
-    )
-      return
-    set({
-      player: {
-        ...player,
-        positionX: to.x,
-        positionY: to.y,
-        energy: player.energy - 1,
-      },
-    })
-  },
-}))
+}
+
+export const initPlayerStore = (): PlayerState => {
+  return { ...defaultInitState }
+}
+
+export const createPlayerStore = (
+  initState: PlayerState = defaultInitState
+) => {
+  return createStore<PlayerStore>()((set) => ({
+    ...initState,
+    setPlayer: (player) => set(() => ({ player })),
+    updatePosition: (coords) =>
+      set((state) => ({
+        player: {
+          ...state.player,
+          positionX: coords.x,
+          positionY: coords.y,
+        },
+      })),
+    updateStats: (changes) =>
+      set((state) => ({
+        player: {
+          ...state.player,
+          ...changes,
+        },
+      })),
+  }))
+}

@@ -1,25 +1,39 @@
-import { usePlayerStore } from "@/stores/player-store"
-import { Tile } from "@/types"
+// components/grid.tsx
+"use client"
 
-import { getSurroundingCoordinates } from "@/lib/grid"
+import { usePlayerStore } from "@/providers/player-store-provider"
+import { useTileStore } from "@/providers/tile-store-provider"
 
-import { TileComponent } from "./tile"
+import { SingleTile } from "./single-tile"
 
-export function Grid({ allTiles }: { allTiles: Tile[] }) {
-  const player = usePlayerStore((s) => s.player)
-  const visibleCoords = getSurroundingCoordinates(player.position)
+export function Grid() {
+  const tiles = useTileStore((state) => state.tiles)
+  const player = usePlayerStore((state) => state.player)
 
-  const visibleTiles = visibleCoords.map((coord) =>
-    allTiles.find(
-      (tile) => tile.coordinates.x === coord.x && tile.coordinates.y === coord.y
-    )
+  if (!tiles?.length || !player) {
+    return <div className="p-4 text-center text-white">Loading map...</div>
+  }
+  console.log(
+    "[Grid] Tiles:",
+    tiles.map((t) => [t.coordX, t.coordY])
   )
+  console.log("[Grid] Player pos:", player.positionX, player.positionY)
 
   return (
-    <div className="grid h-3/4 w-3/4 grid-cols-3 bg-teal-900">
-      {visibleTiles.map(
-        (tile, i) => tile && <TileComponent key={i} tile={tile} />
-      )}
+    <div className="mx-auto grid h-3/4 w-3/4 grid-cols-3 justify-center self-center border-2 border-gray-500 bg-teal-900">
+      {tiles.map((tile) => {
+        const isPlayerHere =
+          tile.coordX === player.positionX && tile.coordY === player.positionY
+
+        return (
+          <SingleTile
+            key={tile.id}
+            tile={tile}
+            player={player}
+            isPlayerHere={isPlayerHere}
+          />
+        )
+      })}
     </div>
   )
 }

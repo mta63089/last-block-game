@@ -19,7 +19,11 @@ export type StatusProps = ComponentProps<typeof Badge> & {
   player: Player
 }
 
-export const PlayerBadge = ({ player, className, ...props }: StatusProps) => {
+export const PlayerBadge = ({
+  player,
+  className = "",
+  ...props
+}: StatusProps) => {
   let borderColor = "border-gray-400"
   let playerIcon
   if (player.class === "zombie") {
@@ -37,8 +41,8 @@ export const PlayerBadge = ({ player, className, ...props }: StatusProps) => {
           className={cn(
             "flex items-center gap-2 border border-red-400",
             "group",
-            className,
-            borderColor
+            borderColor,
+            className
           )}
           variant="secondary"
           {...props}
