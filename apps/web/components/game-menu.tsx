@@ -1,15 +1,33 @@
+import { useEffect, useState } from "react"
 import { Player } from "@/generated/prisma"
 import { StoreTile } from "@/stores/tile-store"
 
 import { Avatar, AvatarFallback } from "@last-block/ui/components/avatar"
 import { Button } from "@last-block/ui/components/button"
 
+import { getTileById } from "@/lib/db"
+
 export interface GameMenuProps extends React.ComponentProps<"div"> {
   player: Player
-  tile: StoreTile
 }
 
-export default function GameMenu({ player, tile, ...props }: GameMenuProps) {
+export default function GameMenu({ player, ...props }: GameMenuProps) {
+  const [playerTile, setPlayerTile] = useState<StoreTile>()
+
+  useEffect(() => {
+    async function init() {
+      try {
+        if (!player.tileId) return
+        const tile = await getTileById(player.tileId)
+        setPlayerTile(tile)
+      } catch (err) {
+        console.error(err)
+      }
+    }
+
+    if (player) init()
+  }, [player])
+
   return (
     <div
       className="col-span-3 w-full border border-t-2 border-white bg-zinc-900 text-white"
@@ -39,7 +57,7 @@ export default function GameMenu({ player, tile, ...props }: GameMenuProps) {
           </ul>
         </div>
         <div className="h-full w-full place-content-center bg-amber-700">
-          {tile?.description}
+          {playerTile?.description}
         </div>
         <div className="mt-2 flex w-24 flex-col gap-1">
           <Button variant="outline" size="sm">

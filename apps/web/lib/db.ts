@@ -60,7 +60,17 @@ export async function getTilesAroundPlayer(userId: string) {
       coordX: { gte: positionX - 1, lte: positionX + 1 },
       coordY: { gte: positionY - 1, lte: positionY + 1 },
     },
+    include: {
+      players: true,
+      lootTable: true,
+    },
   })
+}
+
+export const getTileById = async (tileId: string) => {
+  const tile = await prisma.tile.findUnique({ where: { id: tileId } })
+  if (!tile) throw new Error(`Could not find tile with id ${tileId}`)
+  return tile
 }
 
 export const getPlayerAndTiles = async (userId: string) => {

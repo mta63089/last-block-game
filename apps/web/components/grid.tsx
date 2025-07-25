@@ -10,9 +10,8 @@ import { SingleTile } from "./single-tile"
 
 export function Grid() {
   const router = useRouter()
-  const { tiles, getPlayerTile } = useTileStore((state) => state)
+  const { tiles } = useTileStore((state) => state)
   const { player } = usePlayerStore((state) => state)
-  const playerTile = useTileStore((state) => state.getPlayerTile(player.id))
 
   if (!tiles?.length && player) {
     return <div className="p-4 text-center text-white">Loading map...</div>
@@ -31,7 +30,18 @@ export function Grid() {
           <SingleTile key={tile.id} tile={tile} isPlayerHere={isPlayerHere} />
         )
       })}
-      <GameMenu player={player} tile={playerTile} />
+      <GameMenu player={player} />
+
+      {/* {tiles.map((tile) => {
+        const isPlayerHere =
+          tile.coordX === player.positionX && tile.coordY === player.positionY
+        return (
+          <div>
+            <div>players</div>
+            {tile.players && tile.players[0]?.id}
+          </div>
+        )
+      })} */}
     </div>
   )
 }

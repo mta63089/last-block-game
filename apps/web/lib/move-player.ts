@@ -18,9 +18,17 @@ export async function movePlayer(
   if (direction === "left") newX -= 1
   if (direction === "right") newX += 1
 
+  const newTile = await prisma.tile.findFirst({
+    where: { coordX: newX, coordY: newY },
+  })
+
   const updatedPlayer = await prisma.player.update({
     where: { id: player.id },
-    data: { positionX: newX, positionY: newY },
+    data: {
+      positionX: newX,
+      positionY: newY,
+      tile: { connect: { id: newTile?.id } },
+    },
   })
 
   const tiles = await getTilesAroundPlayer(userId)

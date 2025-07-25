@@ -36,9 +36,7 @@ export default function GamePage() {
     if (userId) init()
   }, [userId, setPlayer, setTiles, router])
 
-  const handleReset = (e: Event) => {
-    e.preventDefault()
-    console.log(userId)
+  const handleReset = () => {
     resetPlayerPosition(userId)
   }
   const displayStore = () => {

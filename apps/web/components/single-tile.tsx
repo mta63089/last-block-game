@@ -78,7 +78,7 @@ export function SingleTile({
           <div className="text-green-400">
             {`(${tile.coordX},${tile.coordY})`}
           </div>
-          <PlayerBadge player={player} />
+          {/* <PlayerBadge player={player} /> */}
         </div>
         <div className="flex w-full items-center justify-end p-1">
           <Button

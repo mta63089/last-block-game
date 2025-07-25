@@ -3,8 +3,13 @@
 import { useEffect, useState } from "react"
 import Image from "next/image"
 import Link from "next/link"
+import { useRouter } from "next/navigation"
 import { AnimatePresence, easeInOut, motion } from "framer-motion"
 import { ArrowRight, Menu, X } from "lucide-react"
+
+import { Button } from "@last-block/ui/components/button"
+
+import { signOut, useSession } from "@/lib/auth-client"
 
 interface NavItem {
   name: string
@@ -17,6 +22,8 @@ const navItems: NavItem[] = [
 ]
 
 export default function SiteHeader() {
+  const router = useRouter()
+  const { data: session } = useSession()
   const [isScrolled, setIsScrolled] = useState(false)
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false)
   const [hoveredItem, setHoveredItem] = useState<string | null>(null)
@@ -69,6 +76,11 @@ export default function SiteHeader() {
   const mobileItemVariants = {
     closed: { opacity: 0, x: 20 },
     open: { opacity: 1, x: 0 },
+  }
+
+  const handleSignOut = () => {
+    signOut()
+    router.push("/")
   }
 
   return (
@@ -142,32 +154,40 @@ export default function SiteHeader() {
                 </motion.div>
               ))}
             </nav>
-
-            <motion.div
-              className="hidden items-center space-x-3 lg:flex"
-              variants={itemVariants}
-            >
-              <Link
-                href="/sign-in"
-                className="text-foreground/80 hover:text-foreground px-4 py-2 text-sm font-medium transition-colors duration-200"
-              >
-                Sign In
-              </Link>
-
+            {!session && (
               <motion.div
-                whileHover={{ scale: 1.02 }}
-                whileTap={{ scale: 0.98 }}
+                className="hidden items-center space-x-3 lg:flex"
+                variants={itemVariants}
               >
                 <Link
-                  href="/sign-up"
-                  className="bg-foreground text-background hover:bg-foreground/90 inline-flex items-center space-x-2 rounded-lg px-5 py-2.5 text-sm font-medium shadow-sm transition-all duration-200"
+                  href="/sign-in"
+                  className="text-foreground/80 hover:text-foreground px-4 py-2 text-sm font-medium transition-colors duration-200"
                 >
-                  <span>Get Started</span>
-                  <ArrowRight className="h-4 w-4" />
+                  Sign In
                 </Link>
-              </motion.div>
-            </motion.div>
 
+                <motion.div
+                  whileHover={{ scale: 1.02 }}
+                  whileTap={{ scale: 0.98 }}
+                >
+                  <Link
+                    href="/sign-up"
+                    className="bg-foreground text-background hover:bg-foreground/90 inline-flex items-center space-x-2 rounded-lg px-5 py-2.5 text-sm font-medium shadow-sm transition-all duration-200"
+                  >
+                    <span>Get Started</span>
+                    <ArrowRight className="h-4 w-4" />
+                  </Link>
+                </motion.div>
+              </motion.div>
+            )}
+            {session && (
+              <motion.div
+                className="hidden items-center space-x-3 lg:flex"
+                variants={itemVariants}
+              >
+                <Button onClick={() => handleSignOut()}>Sign Out</Button>
+              </motion.div>
+            )}
             <motion.button
               className="text-foreground hover:bg-muted rounded-lg p-2 transition-colors duration-200 lg:hidden"
               onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)}
