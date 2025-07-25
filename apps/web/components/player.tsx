@@ -39,7 +39,7 @@ export const PlayerBadge = ({
       <HoverCardTrigger>
         <Badge
           className={cn(
-            "flex items-center gap-2 border border-red-400",
+            "flex w-36 items-center gap-2 border border-red-400",
             "group",
             borderColor,
             className

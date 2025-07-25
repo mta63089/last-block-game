@@ -1356,680 +1356,950 @@ export const seedTiles = [
   //   coordX: 29,
   //   coordY: 8,
   // },
-  {
-    id: "tile-4-6",
-    name: "Cragmoor Sheriff's Station",
-    description: "Badge cases shattered, radio static hums faintly.",
-    icon: "police",
-    coordX: 4,
-    coordY: 6,
-  },
-  {
-    id: "tile-4-7",
-    name: "Hollowside Skate Park",
-    description: "Graffiti-covered ramps echo with old wheels.",
-    icon: "gym",
-    coordX: 4,
-    coordY: 7,
-  },
-  {
-    id: "tile-4-8",
-    name: "Emberfall Hydroelectric Plant",
-    description: "Turbines frozen in rusted silence.",
-    icon: "power",
-    coordX: 4,
-    coordY: 9,
-  },
-  {
-    id: "tile-4-10",
-    name: "Pineveil Subway Terminal",
-    description: "Turnstiles jammed and tunnels collapsed.",
-    icon: "transport",
-    coordX: 4,
-    coordY: 10,
-  },
-  {
-    id: "tile-4-11",
-    name: "Old Broadwick Observatory",
-    description: "A shattered lens watches a broken sky.",
-    icon: "tower",
-    coordX: 4,
-    coordY: 11,
-  },
-  {
-    id: "tile-4-12",
-    name: "Gravemire Sanitation Plant",
-    description: "Conveyor belts clogged with waste and bone.",
-    icon: "industrial",
-    coordX: 4,
-    coordY: 12,
-  },
-  {
-    id: "tile-3-6",
-    name: "Birchlane Printing Press",
-    description: "Rotary machines frozen mid-headline.",
-    icon: "media",
-    coordX: 3,
-    coordY: 6,
-  },
-  {
-    id: "tile-3-7",
-    name: "Sunbluff Rest Stop",
-    description: "Coffee machines empty, but lights still flicker.",
-    icon: "motel",
-    coordX: 3,
-    coordY: 7,
-  },
-  {
-    id: "tile-3-8",
-    name: "Rookbay Marina Market",
-    description: "Fish stalls overturned, tarps flapping in wind.",
-    icon: "market",
-    coordX: 3,
-    coordY: 8,
-  },
-  {
-    id: "tile-3-9",
-    name: "Vermill Hill Antique Store",
-    description: "Dust-covered relics whisper of better times.",
-    icon: "shop",
-    coordX: 3,
-    coordY: 9,
-  },
-  {
-    id: "tile-3-10",
-    name: "Foxglen Blood Bank",
-    description: "Freezers broken. Empty bags under red light.",
-    icon: "clinic",
-    coordX: 3,
-    coordY: 10,
-  },
-  {
-    id: "tile-3-11",
-    name: "Maplerun Dog Park",
-    description: "Leashes and collars scattered among the weeds.",
-    icon: "park",
-    coordX: 3,
-    coordY: 11,
-  },
-  {
-    id: "tile-3-12",
-    name: "Barrowton Army Surplus",
-    description: "Empty shelves and ransacked gear lockers.",
-    icon: "military",
-    coordX: 32,
-    coordY: 6,
-  },
-  {
-    id: "tile-0-6",
-    name: "Shadowbay Courthouse",
-    description: "Judges' benches overturned, files shredded.",
-    icon: "office",
-    coordX: 0,
-    coordY: 6,
-  },
-  {
-    id: "tile-0-7",
-    name: "Copperhill Apartment Block A",
-    description: "Lights flicker above abandoned mailboxes.",
-    icon: "residential",
-    coordX: 0,
-    coordY: 7,
-  },
-  {
-    id: "tile-0-8",
-    name: "Orchard Row Firehouse",
-    description: "Soot-blackened helmets line empty lockers.",
-    icon: "fire",
-    coordX: 0,
-    coordY: 8,
-  },
-  {
-    id: "tile-0-9",
-    name: "Nightingale Motel",
-    description: "Each room door slightly ajar. Unsettlingly quiet.",
-    icon: "motel",
-    coordX: 0,
-    coordY: 9,
-  },
-  {
-    id: "tile-0-10",
-    name: "Whispering Pines Forest",
-    description:
-      "Tall, skeletal trees tower overhead. The forest floor is a thick bed of needles and moss. You hear no birds, only the creaking sway of the trunks in the wind.",
-    icon: "forest",
-    coordX: 0,
-    coordY: 10,
-  },
-  {
-    id: "tile-0-11",
-    name: "Cedarbrook Farmland",
-    description:
-      "A once-busy pasture dotted with old hay bales and sagging wooden fences. The barn is faded red, its door barely hanging on a hinge.",
-    icon: "farm",
-    coordX: 0,
-    coordY: 11,
-  },
-  {
-    id: "tile-0-12",
-    name: "Dry Riverbed",
-    description:
-      "A wide, cracked riverbed with only a trickle of muddy water. Bleached rocks line the path, and old fishing lines still hang from withered trees.",
-    icon: "wasteland",
-    coordX: 0,
-    coordY: 12,
-  },
-  {
-    id: "tile-1-6",
-    name: "Marlowe Grain Silo",
-    description:
-      "An immense rusted silo rises out of a field of wild grass. The surrounding machinery is crumbling, its purpose long forgotten.",
-    icon: "industrial",
-    coordX: 1,
-    coordY: 6,
-  },
-  {
-    id: "tile-1-7",
-    name: "Deertrail Logging Camp",
-    description:
-      "Half-felled trees and broken axes scatter the site. Tents remain pitched, but no trace of the loggers remains—only deep claw marks on tree trunks.",
-    icon: "camp",
-    coordX: 1,
-    coordY: 7,
-  },
-  {
-    id: "tile-1-8",
-    name: "Briarstone Meadow",
-    description:
-      "A wide, open field filled with waist-high grass and overgrown wildflowers. The breeze carries a strange, almost metallic scent.",
-    icon: "meadow",
-    coordX: 1,
-    coordY: 8,
-  },
-  {
-    id: "tile-1-9",
-    name: "Dustway Tractor Yard",
-    description:
-      "Rows of rusted tractors and plows sit silently in a dirt lot. The earth is dry and cracked, the machines long stripped of anything useful.",
-    icon: "junkyard",
-    coordX: 1,
-    coordY: 9,
-  },
-  {
-    id: "tile-1-10",
-    name: "Old Hitching Post",
-    description:
-      "Wooden posts and a collapsed stable suggest this was once a common resting point for travelers. Now it's overrun by weeds and silence.",
-    icon: "ruins",
-    coordX: 1,
-    coordY: 10,
-  },
-  {
-    id: "tile-1-11",
-    name: "Stonewall Cemetery",
-    description:
-      "Cracked gravestones lean in every direction. A crumbled wall barely contains the plot, and most names are faded beyond recognition.",
-    icon: "cemetery",
-    coordX: 1,
-    coordY: 11,
-  },
-  {
-    id: "tile-1-12",
-    name: "Tarn Hollow Windmill",
-    description:
-      "Its blades motionless, the windmill creaks in the wind. Pigeons roost where grain used to turn, and dust chokes the air inside.",
-    icon: "tower",
-    coordX: 1,
-    coordY: 12,
-  },
-  {
-    id: "tile-2-6",
-    name: "Barrow Ridge",
-    description:
-      "A long, gentle hill covered in fog and sparse trees. Strange, evenly spaced mounds suggest old burials or forgotten rituals.",
-    icon: "forest",
-    coordX: 2,
-    coordY: 6,
-  },
-  {
-    id: "tile-2-7",
-    name: "Weathered Fence Line",
-    description:
-      "A broken fence zigzags across this open stretch of land. Nothing grows here anymore—just dirt, the wind, and brittle old posts.",
-    icon: "plain",
-    coordX: 2,
-    coordY: 7,
-  },
-  {
-    id: "tile-2-8",
-    name: "Crumble Hollow Barn",
-    description:
-      "The barn's upper floor has caved in, exposing rotted beams and mold-covered hay. A rusted pitchfork lies in the dirt near an old lantern.",
-    icon: "barn",
-    coordX: 2,
-    coordY: 8,
-  },
-  {
-    id: "tile-2-9",
-    name: "Blackvine Orchard",
-    description:
-      "Dead apple trees stretch in twisted lines, their bark darkened and brittle. No birds sing, but something watches from deep between the trunks.",
-    icon: "forest",
-    coordX: 2,
-    coordY: 9,
-  },
-  {
-    id: "tile-2-10",
-    name: "Benton Creek Crossing",
-    description:
-      "An old covered bridge spans a shallow creek filled with algae. The wood groans under weight, and initials are carved into every beam.",
-    icon: "bridge",
-    coordX: 2,
-    coordY: 10,
-  },
-  {
-    id: "tile-2-11",
-    name: "Overgrown Field",
-    description:
-      "Whatever crop once grew here is now overtaken by tall, brittle stalks. The soil is cracked, and something small rustles just out of sight.",
-    icon: "plain",
-    coordX: 2,
-    coordY: 11,
-  },
-  {
-    id: "tile-2-12",
-    name: "Northspur Trailhead",
-    description:
-      "A narrow dirt path winds into a dense treeline. Old maps show a ranger station nearby, but no one seems to have returned for years.",
-    icon: "trail",
-    coordX: 2,
-    coordY: 12,
-  },
-  {
-    id: "tile-2-13",
-    name: "Ashridge Lookout",
-    description:
-      "Atop a steep incline sits a burned-out watchtower. From here, smoke still seems to rise far off in the valley beyond.",
-    icon: "tower",
-    coordX: 2,
-    coordY: 13,
-  },
-  {
-    id: "tile-5-6",
-    name: "Rotwood Shack",
-    description:
-      "A single-room cabin nearly lost to ivy and vines. Inside are faded books, a cold hearth, and something that skitters when you enter.",
-    icon: "residential",
-    coordX: 5,
-    coordY: 6,
-  },
-  {
-    id: "tile-5-7",
-    name: "Empty Cornfield",
-    description:
-      "An endless grid of decaying stalks sways despite the still air. The ground crunches unnaturally with every step.",
-    icon: "farm",
-    coordX: 5,
-    coordY: 7,
-  },
-  {
-    id: "tile-5-8",
-    name: "Shale Bluffs",
-    description:
-      "Jagged stone outcroppings rise suddenly out of otherwise flat land. Climbing is possible, but risky—rocks crumble with little warning.",
-    icon: "mountain",
-    coordX: 5,
-    coordY: 8,
-  },
-  {
-    id: "tile-5-9",
-    name: "Old Field Hospital",
-    description:
-      "Long-abandoned tents and rusted medical tools still litter the area. The red cross banners are tattered, stained, and unreadable.",
-    icon: "clinic",
-    coordX: 5,
-    coordY: 9,
-  },
-  {
-    id: "tile-5-10",
-    name: "Twilight Pond",
-    description:
-      "A dark, still pond reflecting the sky like glass. Frogs no longer croak, and the reeds look sharp to the touch.",
-    icon: "lake",
-    coordX: 5,
-    coordY: 11,
-  },
-  {
-    id: "tile-5-12",
-    name: "Hollowtrail Crossing",
-    description:
-      "Two dirt roads intersect at this lonely junction. An old road sign still stands, riddled with bullet holes and unreadable names.",
-    icon: "road",
-    coordX: 5,
-    coordY: 13,
-  },
-  {
-    id: "tile-5-14",
-    name: "Silvershade Hayfields",
-    description:
-      "Windblown fields of dried hay roll gently across the horizon. A few abandoned wagons rest on their sides, half-buried.",
-    icon: "meadow",
-    coordX: 5,
-    coordY: 14,
-  },
-  {
-    id: "tile-5-15",
-    name: "East Hollow Highway",
-    description:
-      "Broken asphalt and faded lane paint wind through open land. Traffic signs still point the way—to nowhere in particular.",
-    icon: "road",
-    coordX: 5,
-    coordY: 15,
-  },
-  {
-    id: "tile-6-6",
-    name: "Clover Bend Rest Stop",
-    description:
-      "Crumbling picnic tables sit in silence under a rotting awning. A vending machine, miraculously intact, hums in protest.",
-    icon: "motel",
-    coordX: 6,
-    coordY: 6,
-  },
-  {
-    id: "tile-6-7",
-    name: "Laneford Grain Depot",
-    description:
-      "A huge warehouse with collapsed silos. Pigeons have claimed the rafters, and old train tracks vanish beneath tall grass.",
-    icon: "warehouse",
-    coordX: 6,
-    coordY: 7,
-  },
-  {
-    id: "tile-6-8",
-    name: "Broken Fence Pasture",
-    description:
-      "The land rolls gently under tall golden weeds. Hoofprints long dried into the mud hint at the livestock that once roamed here.",
-    icon: "farm",
-    coordX: 6,
-    coordY: 8,
-  },
-  {
-    id: "tile-6-9",
-    name: "Whistler's Rest",
-    description:
-      "An ancient stone bench beneath a leaning willow tree. Local maps mention legends tied to this quiet place, but no one remembers why.",
-    icon: "monument",
-    coordX: 6,
-    coordY: 9,
-  },
-  {
-    id: "tile-6-10",
-    name: "Maplewind Clearing",
-    description:
-      "A quiet clearing surrounded by maple trees, the ground carpeted in brittle red leaves. The silence is heavy, broken only by the occasional gust of wind.",
-    icon: "meadow",
-    coordX: 6,
-    coordY: 10,
-  },
-  {
-    id: "tile-6-11",
-    name: "Ironpost Orchard",
-    description:
-      "Rows of gnarled fruit trees flank a rusted signpost marking the old farm’s name. The fruit is long gone, replaced by tangled branches and broken irrigation lines.",
-    icon: "forest",
-    coordX: 6,
-    coordY: 11,
-  },
-  {
-    id: "tile-6-12",
-    name: "Tiller's Remains",
-    description:
-      "A rusted tractor lies overturned in the field, half-swallowed by the earth. Tools are strewn about like someone left in a hurry.",
-    icon: "junkyard",
-    coordX: 6,
-    coordY: 12,
-  },
-  {
-    id: "tile-6-13",
-    name: "Sundown Pasture",
-    description:
-      "An open plain stretches to the horizon, broken only by fence posts and a distant silhouette of an animal that never seems to move.",
-    icon: "plain",
-    coordX: 6,
-    coordY: 13,
-  },
-  {
-    id: "tile-6-14",
-    name: "Rustbarrow Way",
-    description:
-      "This cracked country road winds through broken stone walls and collapsed barns, the echo of wagon wheels lost to time.",
-    icon: "road",
-    coordX: 6,
-    coordY: 14,
-  },
-  {
-    id: "tile-6-15",
-    name: "Daggerroot Grove",
-    description:
-      "Thick brush and sharp brambles choke this wooded area. Something moved here recently, and it wasn’t human.",
-    icon: "forest",
-    coordX: 6,
-    coordY: 15,
-  },
-  {
-    id: "tile-7-6",
-    name: "Rainslick Hollow",
-    description:
-      "Low ground prone to flooding, thick with reeds and insects. A sunken outhouse leans sideways, half-submerged in muck.",
-    icon: "swamp",
-    coordX: 7,
-    coordY: 6,
-  },
-  {
-    id: "tile-7-7",
-    name: "Thatchwell Chapel Ruins",
-    description:
-      "Crumbled stone walls and a rotted altar are all that remain of this rural chapel. The stained-glass windows have shattered inward.",
-    icon: "ruins",
-    coordX: 7,
-    coordY: 7,
-  },
-  {
-    id: "tile-7-8",
-    name: "Old Plowman's Lot",
-    description:
-      "An abandoned farm plot with broken plows, bent fencing, and a scarecrow missing its head. The wind whistles low and constant.",
-    icon: "farm",
-    coordX: 7,
-    coordY: 8,
-  },
-  {
-    id: "tile-7-9",
-    name: "Foxlane Footbridge",
-    description:
-      "A short wooden bridge over a shallow creek. The boards creak ominously, and paw prints lead in both directions.",
-    icon: "bridge",
-    coordX: 7,
-    coordY: 9,
-  },
-  {
-    id: "tile-7-10",
-    name: "Stillwater Field",
-    description:
-      "Once irrigated cropland now dry and overgrown. Empty irrigation ditches crisscross the land like veins.",
-    icon: "plain",
-    coordX: 7,
-    coordY: 10,
-  },
-  {
-    id: "tile-7-11",
-    name: "Pinejaw Trail",
-    description:
-      "A narrow animal trail leading through dense pine, where sunlight barely reaches the moss-covered ground.",
-    icon: "trail",
-    coordX: 7,
-    coordY: 11,
-  },
-  {
-    id: "tile-7-12",
-    name: "Quiet Marsh",
-    description:
-      "Sludgy water pools between thick reeds. Something beneath the surface bubbles occasionally without breaking it.",
-    icon: "swamp",
-    coordX: 7,
-    coordY: 12,
-  },
-  {
-    id: "tile-7-13",
-    name: "Ravenshade Fields",
-    description:
-      "Dark soil and rows of desiccated sunflowers bow toward the earth. Dozens of crows rest silently on the stalks, unmoving.",
-    icon: "farm",
-    coordX: 7,
-    coordY: 13,
-  },
-  {
-    id: "tile-7-14",
-    name: "Graveleye Silo",
-    description:
-      "The silo leans slightly, surrounded by old machinery and cracked earth. The air smells faintly of mildew and rust.",
-    icon: "industrial",
-    coordX: 7,
-    coordY: 14,
-  },
-  {
-    id: "tile-7-15",
-    name: "Cracked Rock Crossing",
-    description:
-      "A rocky crossing where an old trail meets a crumbling stone bridge. Large slabs have fallen into the dry creekbed below.",
-    icon: "bridge",
-    coordX: 7,
-    coordY: 15,
-  },
-  {
-    id: "tile-8-6",
-    name: "Elder's Row",
-    description:
-      "Dilapidated cottages line the edge of this overgrown path. Clothes still hang on a line, stiff with age.",
-    icon: "residential",
-    coordX: 8,
-    coordY: 6,
-  },
-  {
-    id: "tile-8-7",
-    name: "Broken Knoll Windfarm",
-    description:
-      "Silent wind turbines stand like sentinels against the sky. Their blades haven't turned in years, but creak when the wind picks up.",
-    icon: "tower",
-    coordX: 8,
-    coordY: 7,
-  },
-  {
-    id: "tile-8-8",
-    name: "Greenfen Road",
-    description:
-      "A broken two-lane road leading through an open field, now mostly overtaken by creeping grass and moss.",
-    icon: "road",
-    coordX: 8,
-    coordY: 8,
-  },
-  {
-    id: "tile-8-9",
-    name: "Widow's Field",
-    description:
-      "A large, abandoned flax field. Tattered cloth banners remain pinned to poles, now colorless and forgotten.",
-    icon: "meadow",
-    coordX: 8,
-    coordY: 9,
-  },
-  {
-    id: "tile-8-10",
-    name: "Creakwood Hamlet",
-    description:
-      "The ruins of a small village—fire-blackened walls, collapsed roofs, and silence. A single signpost reads 'Creakwood'.",
-    icon: "ruins",
-    coordX: 8,
-    coordY: 10,
-  },
-  {
-    id: "tile-8-11",
-    name: "Wickerpost",
-    description:
-      "A lone wooden totem, wrapped in vines and strange markings, stands in a clearing. The grass around it refuses to grow.",
-    icon: "monument",
-    coordX: 8,
-    coordY: 11,
-  },
-  {
-    id: "tile-8-12",
-    name: "Amberhill Lookout",
-    description:
-      "This elevated ridge gives a view over several miles of open fields. An old telescope lies smashed nearby, shattered by age or force.",
-    icon: "tower",
-    coordX: 8,
-    coordY: 12,
-  },
-  {
-    id: "tile-8-13",
-    name: "Morrow Creek",
-    description:
-      "A gentle stream still trickles through stone banks. Its crystal water seems too clean, too untouched for the world around it.",
-    icon: "lake",
-    coordX: 8,
-    coordY: 13,
-  },
-  {
-    id: "tile-8-14",
-    name: "Redpine Hollow",
-    description:
-      "A shallow valley filled with scarlet-barked trees. The bark peels in long strips, revealing strange runes carved beneath.",
-    icon: "forest",
-    coordX: 8,
-    coordY: 14,
-  },
-  {
-    id: "tile-8-15",
-    name: "Harper's Mill",
-    description:
-      "The mill wheel lies frozen, half submerged in a dry streambed. Inside, flour dust still coats the walls and a faded ledger sits open.",
-    icon: "industrial",
-    coordX: 8,
-    coordY: 15,
-  },
-  {
-    id: "tile-9-6",
-    name: "Fallendell Fields",
-    description:
-      "Once cultivated land now lies in decay, crisscrossed by fallen trees and broken fences. A wheelbarrow rusts in the brush.",
-    icon: "plain",
-    coordX: 9,
-    coordY: 6,
-  },
-  {
-    id: "tile-9-7",
-    name: "Goldenthread Path",
-    description:
-      "A thin dirt path winds through tall golden grass. Following it seems simple, but the path subtly shifts behind you.",
-    icon: "trail",
-    coordX: 9,
-    coordY: 7,
-  },
-  {
-    id: "tile-9-8",
-    name: "Cloverbank Ditch",
-    description:
-      "A dried-out irrigation ditch filled with weeds and wildflowers. Somewhere underfoot, you hear the hollow thump of old pipes.",
-    icon: "wasteland",
-    coordX: 9,
-    coordY: 8,
-  },
-  {
-    id: "tile-9-9",
-    name: "Frostedge Verge",
-    description:
-      "The land here grows colder and rockier. Frost lingers even in daylight. A strange boundary is felt more than seen.",
-    icon: "mountain",
-    coordX: 9,
-    coordY: 9,
-  },
+  // {
+  //   id: "tile-4-6",
+  //   name: "Cragmoor Sheriff's Station",
+  //   description: "Badge cases shattered, radio static hums faintly.",
+  //   icon: "police",
+  //   coordX: 4,
+  //   coordY: 6,
+  // },
+  // {
+  //   id: "tile-4-7",
+  //   name: "Hollowside Skate Park",
+  //   description: "Graffiti-covered ramps echo with old wheels.",
+  //   icon: "gym",
+  //   coordX: 4,
+  //   coordY: 7,
+  // },
+  // {
+  //   id: "tile-4-8",
+  //   name: "Emberfall Hydroelectric Plant",
+  //   description: "Turbines frozen in rusted silence.",
+  //   icon: "power",
+  //   coordX: 4,
+  //   coordY: 9,
+  // },
+  // {
+  //   id: "tile-4-10",
+  //   name: "Pineveil Subway Terminal",
+  //   description: "Turnstiles jammed and tunnels collapsed.",
+  //   icon: "transport",
+  //   coordX: 4,
+  //   coordY: 10,
+  // },
+  // {
+  //   id: "tile-4-11",
+  //   name: "Old Broadwick Observatory",
+  //   description: "A shattered lens watches a broken sky.",
+  //   icon: "tower",
+  //   coordX: 4,
+  //   coordY: 11,
+  // },
+  // {
+  //   id: "tile-4-12",
+  //   name: "Gravemire Sanitation Plant",
+  //   description: "Conveyor belts clogged with waste and bone.",
+  //   icon: "industrial",
+  //   coordX: 4,
+  //   coordY: 12,
+  // },
+  // {
+  //   id: "tile-3-6",
+  //   name: "Birchlane Printing Press",
+  //   description: "Rotary machines frozen mid-headline.",
+  //   icon: "media",
+  //   coordX: 3,
+  //   coordY: 6,
+  // },
+  // {
+  //   id: "tile-3-7",
+  //   name: "Sunbluff Rest Stop",
+  //   description: "Coffee machines empty, but lights still flicker.",
+  //   icon: "motel",
+  //   coordX: 3,
+  //   coordY: 7,
+  // },
+  // {
+  //   id: "tile-3-8",
+  //   name: "Rookbay Marina Market",
+  //   description: "Fish stalls overturned, tarps flapping in wind.",
+  //   icon: "market",
+  //   coordX: 3,
+  //   coordY: 8,
+  // },
+  // {
+  //   id: "tile-3-9",
+  //   name: "Vermill Hill Antique Store",
+  //   description: "Dust-covered relics whisper of better times.",
+  //   icon: "shop",
+  //   coordX: 3,
+  //   coordY: 9,
+  // },
+  // {
+  //   id: "tile-3-10",
+  //   name: "Foxglen Blood Bank",
+  //   description: "Freezers broken. Empty bags under red light.",
+  //   icon: "clinic",
+  //   coordX: 3,
+  //   coordY: 10,
+  // },
+  // {
+  //   id: "tile-3-11",
+  //   name: "Maplerun Dog Park",
+  //   description: "Leashes and collars scattered among the weeds.",
+  //   icon: "park",
+  //   coordX: 3,
+  //   coordY: 11,
+  // },
+  // {
+  //   id: "tile-3-12",
+  //   name: "Barrowton Army Surplus",
+  //   description: "Empty shelves and ransacked gear lockers.",
+  //   icon: "military",
+  //   coordX: 32,
+  //   coordY: 6,
+  // },
+  // {
+  //   id: "tile-0-6",
+  //   name: "Shadowbay Courthouse",
+  //   description: "Judges' benches overturned, files shredded.",
+  //   icon: "office",
+  //   coordX: 0,
+  //   coordY: 6,
+  // },
+  // {
+  //   id: "tile-0-7",
+  //   name: "Copperhill Apartment Block A",
+  //   description: "Lights flicker above abandoned mailboxes.",
+  //   icon: "residential",
+  //   coordX: 0,
+  //   coordY: 7,
+  // },
+  // {
+  //   id: "tile-0-8",
+  //   name: "Orchard Row Firehouse",
+  //   description: "Soot-blackened helmets line empty lockers.",
+  //   icon: "fire",
+  //   coordX: 0,
+  //   coordY: 8,
+  // },
+  // {
+  //   id: "tile-0-9",
+  //   name: "Nightingale Motel",
+  //   description: "Each room door slightly ajar. Unsettlingly quiet.",
+  //   icon: "motel",
+  //   coordX: 0,
+  //   coordY: 9,
+  // },
+  // {
+  //   id: "tile-0-10",
+  //   name: "Whispering Pines Forest",
+  //   description:
+  //     "Tall, skeletal trees tower overhead. The forest floor is a thick bed of needles and moss. You hear no birds, only the creaking sway of the trunks in the wind.",
+  //   icon: "forest",
+  //   coordX: 0,
+  //   coordY: 10,
+  // },
+  // {
+  //   id: "tile-0-11",
+  //   name: "Cedarbrook Farmland",
+  //   description:
+  //     "A once-busy pasture dotted with old hay bales and sagging wooden fences. The barn is faded red, its door barely hanging on a hinge.",
+  //   icon: "farm",
+  //   coordX: 0,
+  //   coordY: 11,
+  // },
+  // {
+  //   id: "tile-0-12",
+  //   name: "Dry Riverbed",
+  //   description:
+  //     "A wide, cracked riverbed with only a trickle of muddy water. Bleached rocks line the path, and old fishing lines still hang from withered trees.",
+  //   icon: "wasteland",
+  //   coordX: 0,
+  //   coordY: 12,
+  // },
+  // {
+  //   id: "tile-1-6",
+  //   name: "Marlowe Grain Silo",
+  //   description:
+  //     "An immense rusted silo rises out of a field of wild grass. The surrounding machinery is crumbling, its purpose long forgotten.",
+  //   icon: "industrial",
+  //   coordX: 1,
+  //   coordY: 6,
+  // },
+  // {
+  //   id: "tile-1-7",
+  //   name: "Deertrail Logging Camp",
+  //   description:
+  //     "Half-felled trees and broken axes scatter the site. Tents remain pitched, but no trace of the loggers remains—only deep claw marks on tree trunks.",
+  //   icon: "camp",
+  //   coordX: 1,
+  //   coordY: 7,
+  // },
+  // {
+  //   id: "tile-1-8",
+  //   name: "Briarstone Meadow",
+  //   description:
+  //     "A wide, open field filled with waist-high grass and overgrown wildflowers. The breeze carries a strange, almost metallic scent.",
+  //   icon: "meadow",
+  //   coordX: 1,
+  //   coordY: 8,
+  // },
+  // {
+  //   id: "tile-1-9",
+  //   name: "Dustway Tractor Yard",
+  //   description:
+  //     "Rows of rusted tractors and plows sit silently in a dirt lot. The earth is dry and cracked, the machines long stripped of anything useful.",
+  //   icon: "junkyard",
+  //   coordX: 1,
+  //   coordY: 9,
+  // },
+  // {
+  //   id: "tile-1-10",
+  //   name: "Old Hitching Post",
+  //   description:
+  //     "Wooden posts and a collapsed stable suggest this was once a common resting point for travelers. Now it's overrun by weeds and silence.",
+  //   icon: "ruins",
+  //   coordX: 1,
+  //   coordY: 10,
+  // },
+  // {
+  //   id: "tile-1-11",
+  //   name: "Stonewall Cemetery",
+  //   description:
+  //     "Cracked gravestones lean in every direction. A crumbled wall barely contains the plot, and most names are faded beyond recognition.",
+  //   icon: "cemetery",
+  //   coordX: 1,
+  //   coordY: 11,
+  // },
+  // {
+  //   id: "tile-1-12",
+  //   name: "Tarn Hollow Windmill",
+  //   description:
+  //     "Its blades motionless, the windmill creaks in the wind. Pigeons roost where grain used to turn, and dust chokes the air inside.",
+  //   icon: "tower",
+  //   coordX: 1,
+  //   coordY: 12,
+  // },
+  // {
+  //   id: "tile-2-6",
+  //   name: "Barrow Ridge",
+  //   description:
+  //     "A long, gentle hill covered in fog and sparse trees. Strange, evenly spaced mounds suggest old burials or forgotten rituals.",
+  //   icon: "forest",
+  //   coordX: 2,
+  //   coordY: 6,
+  // },
+  // {
+  //   id: "tile-2-7",
+  //   name: "Weathered Fence Line",
+  //   description:
+  //     "A broken fence zigzags across this open stretch of land. Nothing grows here anymore—just dirt, the wind, and brittle old posts.",
+  //   icon: "plain",
+  //   coordX: 2,
+  //   coordY: 7,
+  // },
+  // {
+  //   id: "tile-2-8",
+  //   name: "Crumble Hollow Barn",
+  //   description:
+  //     "The barn's upper floor has caved in, exposing rotted beams and mold-covered hay. A rusted pitchfork lies in the dirt near an old lantern.",
+  //   icon: "barn",
+  //   coordX: 2,
+  //   coordY: 8,
+  // },
+  // {
+  //   id: "tile-2-9",
+  //   name: "Blackvine Orchard",
+  //   description:
+  //     "Dead apple trees stretch in twisted lines, their bark darkened and brittle. No birds sing, but something watches from deep between the trunks.",
+  //   icon: "forest",
+  //   coordX: 2,
+  //   coordY: 9,
+  // },
+  // {
+  //   id: "tile-2-10",
+  //   name: "Benton Creek Crossing",
+  //   description:
+  //     "An old covered bridge spans a shallow creek filled with algae. The wood groans under weight, and initials are carved into every beam.",
+  //   icon: "bridge",
+  //   coordX: 2,
+  //   coordY: 10,
+  // },
+  // {
+  //   id: "tile-2-11",
+  //   name: "Overgrown Field",
+  //   description:
+  //     "Whatever crop once grew here is now overtaken by tall, brittle stalks. The soil is cracked, and something small rustles just out of sight.",
+  //   icon: "plain",
+  //   coordX: 2,
+  //   coordY: 11,
+  // },
+  // {
+  //   id: "tile-2-12",
+  //   name: "Northspur Trailhead",
+  //   description:
+  //     "A narrow dirt path winds into a dense treeline. Old maps show a ranger station nearby, but no one seems to have returned for years.",
+  //   icon: "trail",
+  //   coordX: 2,
+  //   coordY: 12,
+  // },
+  // {
+  //   id: "tile-2-13",
+  //   name: "Ashridge Lookout",
+  //   description:
+  //     "Atop a steep incline sits a burned-out watchtower. From here, smoke still seems to rise far off in the valley beyond.",
+  //   icon: "tower",
+  //   coordX: 2,
+  //   coordY: 13,
+  // },
+  // {
+  //   id: "tile-5-6",
+  //   name: "Rotwood Shack",
+  //   description:
+  //     "A single-room cabin nearly lost to ivy and vines. Inside are faded books, a cold hearth, and something that skitters when you enter.",
+  //   icon: "residential",
+  //   coordX: 5,
+  //   coordY: 6,
+  // },
+  // {
+  //   id: "tile-5-7",
+  //   name: "Empty Cornfield",
+  //   description:
+  //     "An endless grid of decaying stalks sways despite the still air. The ground crunches unnaturally with every step.",
+  //   icon: "farm",
+  //   coordX: 5,
+  //   coordY: 7,
+  // },
+  // {
+  //   id: "tile-5-8",
+  //   name: "Shale Bluffs",
+  //   description:
+  //     "Jagged stone outcroppings rise suddenly out of otherwise flat land. Climbing is possible, but risky—rocks crumble with little warning.",
+  //   icon: "mountain",
+  //   coordX: 5,
+  //   coordY: 8,
+  // },
+  // {
+  //   id: "tile-5-9",
+  //   name: "Old Field Hospital",
+  //   description:
+  //     "Long-abandoned tents and rusted medical tools still litter the area. The red cross banners are tattered, stained, and unreadable.",
+  //   icon: "clinic",
+  //   coordX: 5,
+  //   coordY: 9,
+  // },
+  // {
+  //   id: "tile-5-10",
+  //   name: "Twilight Pond",
+  //   description:
+  //     "A dark, still pond reflecting the sky like glass. Frogs no longer croak, and the reeds look sharp to the touch.",
+  //   icon: "lake",
+  //   coordX: 5,
+  //   coordY: 11,
+  // },
+  // {
+  //   id: "tile-5-12",
+  //   name: "Hollowtrail Crossing",
+  //   description:
+  //     "Two dirt roads intersect at this lonely junction. An old road sign still stands, riddled with bullet holes and unreadable names.",
+  //   icon: "road",
+  //   coordX: 5,
+  //   coordY: 13,
+  // },
+  // {
+  //   id: "tile-5-14",
+  //   name: "Silvershade Hayfields",
+  //   description:
+  //     "Windblown fields of dried hay roll gently across the horizon. A few abandoned wagons rest on their sides, half-buried.",
+  //   icon: "meadow",
+  //   coordX: 5,
+  //   coordY: 14,
+  // },
+  // {
+  //   id: "tile-5-15",
+  //   name: "East Hollow Highway",
+  //   description:
+  //     "Broken asphalt and faded lane paint wind through open land. Traffic signs still point the way—to nowhere in particular.",
+  //   icon: "road",
+  //   coordX: 5,
+  //   coordY: 15,
+  // },
+  // {
+  //   id: "tile-6-6",
+  //   name: "Clover Bend Rest Stop",
+  //   description:
+  //     "Crumbling picnic tables sit in silence under a rotting awning. A vending machine, miraculously intact, hums in protest.",
+  //   icon: "motel",
+  //   coordX: 6,
+  //   coordY: 6,
+  // },
+  // {
+  //   id: "tile-6-7",
+  //   name: "Laneford Grain Depot",
+  //   description:
+  //     "A huge warehouse with collapsed silos. Pigeons have claimed the rafters, and old train tracks vanish beneath tall grass.",
+  //   icon: "warehouse",
+  //   coordX: 6,
+  //   coordY: 7,
+  // },
+  // {
+  //   id: "tile-6-8",
+  //   name: "Broken Fence Pasture",
+  //   description:
+  //     "The land rolls gently under tall golden weeds. Hoofprints long dried into the mud hint at the livestock that once roamed here.",
+  //   icon: "farm",
+  //   coordX: 6,
+  //   coordY: 8,
+  // },
+  // {
+  //   id: "tile-6-9",
+  //   name: "Whistler's Rest",
+  //   description:
+  //     "An ancient stone bench beneath a leaning willow tree. Local maps mention legends tied to this quiet place, but no one remembers why.",
+  //   icon: "monument",
+  //   coordX: 6,
+  //   coordY: 9,
+  // },
+  // {
+  //   id: "tile-6-10",
+  //   name: "Maplewind Clearing",
+  //   description:
+  //     "A quiet clearing surrounded by maple trees, the ground carpeted in brittle red leaves. The silence is heavy, broken only by the occasional gust of wind.",
+  //   icon: "meadow",
+  //   coordX: 6,
+  //   coordY: 10,
+  // },
+  // {
+  //   id: "tile-6-11",
+  //   name: "Ironpost Orchard",
+  //   description:
+  //     "Rows of gnarled fruit trees flank a rusted signpost marking the old farm’s name. The fruit is long gone, replaced by tangled branches and broken irrigation lines.",
+  //   icon: "forest",
+  //   coordX: 6,
+  //   coordY: 11,
+  // },
+  // {
+  //   id: "tile-6-12",
+  //   name: "Tiller's Remains",
+  //   description:
+  //     "A rusted tractor lies overturned in the field, half-swallowed by the earth. Tools are strewn about like someone left in a hurry.",
+  //   icon: "junkyard",
+  //   coordX: 6,
+  //   coordY: 12,
+  // },
+  // {
+  //   id: "tile-6-13",
+  //   name: "Sundown Pasture",
+  //   description:
+  //     "An open plain stretches to the horizon, broken only by fence posts and a distant silhouette of an animal that never seems to move.",
+  //   icon: "plain",
+  //   coordX: 6,
+  //   coordY: 13,
+  // },
+  // {
+  //   id: "tile-6-14",
+  //   name: "Rustbarrow Way",
+  //   description:
+  //     "This cracked country road winds through broken stone walls and collapsed barns, the echo of wagon wheels lost to time.",
+  //   icon: "road",
+  //   coordX: 6,
+  //   coordY: 14,
+  // },
+  // {
+  //   id: "tile-6-15",
+  //   name: "Daggerroot Grove",
+  //   description:
+  //     "Thick brush and sharp brambles choke this wooded area. Something moved here recently, and it wasn’t human.",
+  //   icon: "forest",
+  //   coordX: 6,
+  //   coordY: 15,
+  // },
+  // {
+  //   id: "tile-7-6",
+  //   name: "Rainslick Hollow",
+  //   description:
+  //     "Low ground prone to flooding, thick with reeds and insects. A sunken outhouse leans sideways, half-submerged in muck.",
+  //   icon: "swamp",
+  //   coordX: 7,
+  //   coordY: 6,
+  // },
+  // {
+  //   id: "tile-7-7",
+  //   name: "Thatchwell Chapel Ruins",
+  //   description:
+  //     "Crumbled stone walls and a rotted altar are all that remain of this rural chapel. The stained-glass windows have shattered inward.",
+  //   icon: "ruins",
+  //   coordX: 7,
+  //   coordY: 7,
+  // },
+  // {
+  //   id: "tile-7-8",
+  //   name: "Old Plowman's Lot",
+  //   description:
+  //     "An abandoned farm plot with broken plows, bent fencing, and a scarecrow missing its head. The wind whistles low and constant.",
+  //   icon: "farm",
+  //   coordX: 7,
+  //   coordY: 8,
+  // },
+  // {
+  //   id: "tile-7-9",
+  //   name: "Foxlane Footbridge",
+  //   description:
+  //     "A short wooden bridge over a shallow creek. The boards creak ominously, and paw prints lead in both directions.",
+  //   icon: "bridge",
+  //   coordX: 7,
+  //   coordY: 9,
+  // },
+  // {
+  //   id: "tile-7-10",
+  //   name: "Stillwater Field",
+  //   description:
+  //     "Once irrigated cropland now dry and overgrown. Empty irrigation ditches crisscross the land like veins.",
+  //   icon: "plain",
+  //   coordX: 7,
+  //   coordY: 10,
+  // },
+  // {
+  //   id: "tile-7-11",
+  //   name: "Pinejaw Trail",
+  //   description:
+  //     "A narrow animal trail leading through dense pine, where sunlight barely reaches the moss-covered ground.",
+  //   icon: "trail",
+  //   coordX: 7,
+  //   coordY: 11,
+  // },
+  // {
+  //   id: "tile-7-12",
+  //   name: "Quiet Marsh",
+  //   description:
+  //     "Sludgy water pools between thick reeds. Something beneath the surface bubbles occasionally without breaking it.",
+  //   icon: "swamp",
+  //   coordX: 7,
+  //   coordY: 12,
+  // },
+  // {
+  //   id: "tile-7-13",
+  //   name: "Ravenshade Fields",
+  //   description:
+  //     "Dark soil and rows of desiccated sunflowers bow toward the earth. Dozens of crows rest silently on the stalks, unmoving.",
+  //   icon: "farm",
+  //   coordX: 7,
+  //   coordY: 13,
+  // },
+  // {
+  //   id: "tile-7-14",
+  //   name: "Graveleye Silo",
+  //   description:
+  //     "The silo leans slightly, surrounded by old machinery and cracked earth. The air smells faintly of mildew and rust.",
+  //   icon: "industrial",
+  //   coordX: 7,
+  //   coordY: 14,
+  // },
+  // {
+  //   id: "tile-7-15",
+  //   name: "Cracked Rock Crossing",
+  //   description:
+  //     "A rocky crossing where an old trail meets a crumbling stone bridge. Large slabs have fallen into the dry creekbed below.",
+  //   icon: "bridge",
+  //   coordX: 7,
+  //   coordY: 15,
+  // },
+  // {
+  //   id: "tile-8-6",
+  //   name: "Elder's Row",
+  //   description:
+  //     "Dilapidated cottages line the edge of this overgrown path. Clothes still hang on a line, stiff with age.",
+  //   icon: "residential",
+  //   coordX: 8,
+  //   coordY: 6,
+  // },
+  // {
+  //   id: "tile-8-7",
+  //   name: "Broken Knoll Windfarm",
+  //   description:
+  //     "Silent wind turbines stand like sentinels against the sky. Their blades haven't turned in years, but creak when the wind picks up.",
+  //   icon: "tower",
+  //   coordX: 8,
+  //   coordY: 7,
+  // },
+  // {
+  //   id: "tile-8-8",
+  //   name: "Greenfen Road",
+  //   description:
+  //     "A broken two-lane road leading through an open field, now mostly overtaken by creeping grass and moss.",
+  //   icon: "road",
+  //   coordX: 8,
+  //   coordY: 8,
+  // },
+  // {
+  //   id: "tile-8-9",
+  //   name: "Widow's Field",
+  //   description:
+  //     "A large, abandoned flax field. Tattered cloth banners remain pinned to poles, now colorless and forgotten.",
+  //   icon: "meadow",
+  //   coordX: 8,
+  //   coordY: 9,
+  // },
+  // {
+  //   id: "tile-8-10",
+  //   name: "Creakwood Hamlet",
+  //   description:
+  //     "The ruins of a small village—fire-blackened walls, collapsed roofs, and silence. A single signpost reads 'Creakwood'.",
+  //   icon: "ruins",
+  //   coordX: 8,
+  //   coordY: 10,
+  // },
+  // {
+  //   id: "tile-8-11",
+  //   name: "Wickerpost",
+  //   description:
+  //     "A lone wooden totem, wrapped in vines and strange markings, stands in a clearing. The grass around it refuses to grow.",
+  //   icon: "monument",
+  //   coordX: 8,
+  //   coordY: 11,
+  // },
+  // {
+  //   id: "tile-8-12",
+  //   name: "Amberhill Lookout",
+  //   description:
+  //     "This elevated ridge gives a view over several miles of open fields. An old telescope lies smashed nearby, shattered by age or force.",
+  //   icon: "tower",
+  //   coordX: 8,
+  //   coordY: 12,
+  // },
+  // {
+  //   id: "tile-8-13",
+  //   name: "Morrow Creek",
+  //   description:
+  //     "A gentle stream still trickles through stone banks. Its crystal water seems too clean, too untouched for the world around it.",
+  //   icon: "lake",
+  //   coordX: 8,
+  //   coordY: 13,
+  // },
+  // {
+  //   id: "tile-8-14",
+  //   name: "Redpine Hollow",
+  //   description:
+  //     "A shallow valley filled with scarlet-barked trees. The bark peels in long strips, revealing strange runes carved beneath.",
+  //   icon: "forest",
+  //   coordX: 8,
+  //   coordY: 14,
+  // },
+  // {
+  //   id: "tile-8-15",
+  //   name: "Harper's Mill",
+  //   description:
+  //     "The mill wheel lies frozen, half submerged in a dry streambed. Inside, flour dust still coats the walls and a faded ledger sits open.",
+  //   icon: "industrial",
+  //   coordX: 8,
+  //   coordY: 15,
+  // },
+  // {
+  //   id: "tile-9-6",
+  //   name: "Fallendell Fields",
+  //   description:
+  //     "Once cultivated land now lies in decay, crisscrossed by fallen trees and broken fences. A wheelbarrow rusts in the brush.",
+  //   icon: "plain",
+  //   coordX: 9,
+  //   coordY: 6,
+  // },
+  // {
+  //   id: "tile-9-7",
+  //   name: "Goldenthread Path",
+  //   description:
+  //     "A thin dirt path winds through tall golden grass. Following it seems simple, but the path subtly shifts behind you.",
+  //   icon: "trail",
+  //   coordX: 9,
+  //   coordY: 7,
+  // },
+  // {
+  //   id: "tile-9-8",
+  //   name: "Cloverbank Ditch",
+  //   description:
+  //     "A dried-out irrigation ditch filled with weeds and wildflowers. Somewhere underfoot, you hear the hollow thump of old pipes.",
+  //   icon: "wasteland",
+  //   coordX: 9,
+  //   coordY: 8,
+  // },
+  // {
+  //   id: "tile-9-9",
+  //   name: "Frostedge Verge",
+  //   description:
+  //     "The land here grows colder and rockier. Frost lingers even in daylight. A strange boundary is felt more than seen.",
+  //   icon: "mountain",
+  //   coordX: 9,
+  //   coordY: 9,
+  // },
+  // {
+  //   id: "tile-9-10",
+  //   name: "Whisperbend Creek",
+  //   description:
+  //     "A quiet, winding creek with crystal clear water. The banks are lined with old willow trees, their long branches swaying like whispers in the wind.",
+  //   icon: "lake",
+  //   coordX: 9,
+  //   coordY: 10,
+  // },
+  // {
+  //   id: "tile-9-11",
+  //   name: "Dusthook Farmstead",
+  //   description:
+  //     "The remnants of a farm long abandoned. A collapsed barn, rusted scythe, and dry fields tell stories of hardship and hasty retreat.",
+  //   icon: "farm",
+  //   coordX: 9,
+  //   coordY: 11,
+  // },
+  // {
+  //   id: "tile-9-12",
+  //   name: "Starglen Meadow",
+  //   description:
+  //     "A peaceful open field surrounded by rolling hills. Wildflowers grow freely, and the stars are visible even before dusk.",
+  //   icon: "meadow",
+  //   coordX: 9,
+  //   coordY: 12,
+  // },
+  // {
+  //   id: "tile-9-13",
+  //   name: "Old Varn Mill",
+  //   description:
+  //     "This broken-down windmill hasn’t turned in decades. Its blades hang at odd angles and the door creaks open into dark emptiness.",
+  //   icon: "industrial",
+  //   coordX: 9,
+  //   coordY: 13,
+  // },
+  // {
+  //   id: "tile-9-14",
+  //   name: "Bleak Row",
+  //   description:
+  //     "A stretch of empty road lined with the shells of old houses. Windows are boarded, and the mailboxes overflow with yellowed paper.",
+  //   icon: "residential",
+  //   coordX: 9,
+  //   coordY: 14,
+  // },
+  // {
+  //   id: "tile-9-15",
+  //   name: "Cindergrove Edge",
+  //   description:
+  //     "At the edge of this ash-colored forest, the trees grow closer and darker. Burnt branches twist skyward like claws.",
+  //   icon: "forest",
+  //   coordX: 9,
+  //   coordY: 15,
+  // },
+  // {
+  //   id: "tile-0-13",
+  //   name: "Cradlewatch Hill",
+  //   description:
+  //     "An old watchtower base, now collapsed. A makeshift graveyard surrounds it, marked with wooden stakes and faded cloth.",
+  //   icon: "tower",
+  //   coordX: 0,
+  //   coordY: 13,
+  // },
+  // {
+  //   id: "tile-0-14",
+  //   name: "Mossvale Patch",
+  //   description:
+  //     "A small shaded glen overgrown with thick moss and fern. The ground feels soft underfoot, muffling all sound.",
+  //   icon: "meadow",
+  //   coordX: 0,
+  //   coordY: 14,
+  // },
+  // {
+  //   id: "tile-0-15",
+  //   name: "Scarecrow's Bend",
+  //   description:
+  //     "A single dirt path winds past a leaning scarecrow dressed in tattered city clothes. No crops remain around it.",
+  //   icon: "trail",
+  //   coordX: 0,
+  //   coordY: 15,
+  // },
+  // {
+  //   id: "tile-0-16",
+  //   name: "Fenceroot Divide",
+  //   description:
+  //     "A long, crumbling stone fence divides two overgrown fields. Thornbushes crawl over the rocks and snag at travelers.",
+  //   icon: "plain",
+  //   coordX: 0,
+  //   coordY: 16,
+  // },
+  // {
+  //   id: "tile-0-17",
+  //   name: "Ashrow Hollow",
+  //   description:
+  //     "This low-lying hollow collects fog throughout the day. Trees grow thin and pale here, with branches like bones.",
+  //   icon: "forest",
+  //   coordX: 0,
+  //   coordY: 17,
+  // },
+  // {
+  //   id: "tile-0-18",
+  //   name: "Brass Lantern Junction",
+  //   description:
+  //     "A rusty signpost sits at the center of four old paths. A broken lantern swings from it, though no one recalls who lit it last.",
+  //   icon: "road",
+  //   coordX: 0,
+  //   coordY: 18,
+  // },
+  // {
+  //   id: "tile-0-19",
+  //   name: "Wheatspire Plateau",
+  //   description:
+  //     "A high plateau once farmed for wheat. Rows of stunted stalks still stand in the wind, untouched by time or creature.",
+  //   icon: "plain",
+  //   coordX: 0,
+  //   coordY: 19,
+  // },
+  // {
+  //   id: "tile-0-20",
+  //   name: "Fallowmarch Trail",
+  //   description:
+  //     "A dirt trail that vanishes and reappears along the hills. Travel here feels aimless, as if the land loops subtly on itself.",
+  //   icon: "trail",
+  //   coordX: 0,
+  //   coordY: 20,
+  // },
+  // {
+  //   id: "tile-1-13",
+  //   name: "Old Birch Fork",
+  //   description:
+  //     "Where two birch trees once split the path, now only one remains. The other lies in shards, scattered in strange directions.",
+  //   icon: "forest",
+  //   coordX: 1,
+  //   coordY: 13,
+  // },
+  // {
+  //   id: "tile-1-14",
+  //   name: "Thresher's Rest",
+  //   description:
+  //     "A broken-down thresher lies here, its wheels embedded in the earth. Someone scratched words into its side years ago.",
+  //   icon: "junkyard",
+  //   coordX: 1,
+  //   coordY: 14,
+  // },
+  // {
+  //   id: "tile-1-15",
+  //   name: "Murkfen Crossing",
+  //   description:
+  //     "Thick fog and ankle-deep mud make this area slow to cross. The bones of some large creature sit half-buried nearby.",
+  //   icon: "swamp",
+  //   coordX: 1,
+  //   coordY: 15,
+  // },
+  // {
+  //   id: "tile-1-16",
+  //   name: "Echocliff Rim",
+  //   description:
+  //     "The land here abruptly drops into a sharp ravine. Climbing down is possible, but what lives below isn't clear.",
+  //   icon: "mountain",
+  //   coordX: 1,
+  //   coordY: 16,
+  // },
+  // {
+  //   id: "tile-1-17",
+  //   name: "Briarholt Remains",
+  //   description:
+  //     "What was once a farm is now a sprawl of thorns and tangled weeds. Wooden beams stick out like splinters.",
+  //   icon: "ruins",
+  //   coordX: 1,
+  //   coordY: 17,
+  // },
+  // {
+  //   id: "tile-1-18",
+  //   name: "Hazelwick Border",
+  //   description:
+  //     "A faded wooden sign declares entry to Hazelwick, though no such village remains. Only the fields remember.",
+  //   icon: "residential",
+  //   coordX: 1,
+  //   coordY: 18,
+  // },
+  // {
+  //   id: "tile-1-19",
+  //   name: "Burnttrace Acres",
+  //   description:
+  //     "Scorched earth and blackened stalks mark the area. Fire once ripped through here, and little has grown back.",
+  //   icon: "plain",
+  //   coordX: 1,
+  //   coordY: 19,
+  // },
+  // {
+  //   id: "tile-1-20",
+  //   name: "Spindle Hollow",
+  //   description:
+  //     "Dense forest where the trees grow impossibly tall and straight. The canopy above blocks out the sun entirely.",
+  //   icon: "forest",
+  //   coordX: 1,
+  //   coordY: 20,
+  // },
+  // {
+  //   id: "tile-2-14",
+  //   name: "Rusted Pike Turn",
+  //   description:
+  //     "An old traffic barrier half sunken into the ground with no visible road left around it. Nature has taken back everything.",
+  //   icon: "junkyard",
+  //   coordX: 2,
+  //   coordY: 14,
+  // },
+  // {
+  //   id: "tile-2-15",
+  //   name: "Nettlebank Shore",
+  //   description:
+  //     "A rocky lakeside area overrun with nettles and small insects. Something swims under the surface, always watching.",
+  //   icon: "lake",
+  //   coordX: 2,
+  //   coordY: 15,
+  // },
+  // {
+  //   id: "tile-2-16",
+  //   name: "Fencemarch",
+  //   description:
+  //     "A long row of wooden fencing stretches into the horizon. It divides nothing but stands as if it still matters.",
+  //   icon: "plain",
+  //   coordX: 2,
+  //   coordY: 16,
+  // },
+  // {
+  //   id: "tile-2-17",
+  //   name: "Stormknell Cross",
+  //   description:
+  //     "This crossroad is marked by an old bell tower. The bell fell decades ago and now sits cracked in the dirt.",
+  //   icon: "tower",
+  //   coordX: 2,
+  //   coordY: 17,
+  // },
+  // {
+  //   id: "tile-2-18",
+  //   name: "Wick Hollow Orchard",
+  //   description:
+  //     "Twisted apple trees remain, though the fruit is soft and bitter. Some trees still hold withered figures tied in rope.",
+  //   icon: "forest",
+  //   coordX: 2,
+  //   coordY: 18,
+  // },
+  // {
+  //   id: "tile-2-19",
+  //   name: "Rivermouth Flats",
+  //   description:
+  //     "Where the river once met the ocean, now it meets dry sand and bone. The tide has not returned in years.",
+  //   icon: "lake",
+  //   coordX: 2,
+  //   coordY: 19,
+  // },
+  // {
+  //   id: "tile-2-20",
+  //   name: "Greenhook Shed",
+  //   description:
+  //     "A fishing shack far from water, its roof intact and a firepit inside still faintly warm.",
+  //   icon: "residential",
+  //   coordX: 2,
+  //   coordY: 20,
+  // },
+  // {
+  //   id: "tile-3-12",
+  //   name: "Deadlight Rise",
+  //   description:
+  //     "The horizon here glows faintly at night, though no moonlight shines. Animals avoid it, and silence is complete.",
+  //   icon: "wasteland",
+  //   coordX: 3,
+  //   coordY: 12,
+  // },
 ]

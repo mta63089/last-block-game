@@ -1,6 +1,7 @@
 "use client"
 
 import { useState } from "react"
+import { useRouter } from "next/navigation"
 import { PlayerClass } from "@/generated/prisma"
 import { zodResolver } from "@hookform/resolvers/zod"
 import { useForm } from "react-hook-form"
@@ -29,6 +30,7 @@ import { createPlayer } from "@/lib/db"
 import { Icons } from "./icons"
 
 export default function CreatePlayer({ userId }: { userId: string }) {
+  const router = useRouter()
   const [loading, setLoading] = useState(false)
 
   const formSchema = z.object({
@@ -59,6 +61,7 @@ export default function CreatePlayer({ userId }: { userId: string }) {
       )
     })()
     setLoading(false)
+    router.push("/game")
   }
 
   function onReset() {

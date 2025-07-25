@@ -6,6 +6,7 @@ import prisma from "@/lib/prisma"
 async function main() {
   await prisma.tile.createMany({
     data: seedTiles,
+    skipDuplicates: true,
   })
   console.log("🌱 Seeding complete")
 }

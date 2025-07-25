@@ -1,6 +1,7 @@
 "use client"
 
 import { useEffect } from "react"
+import { useRouter } from "next/navigation"
 import { useUser } from "@/context/user-context"
 import { usePlayerStore } from "@/providers/player-store-provider"
 import { useTileStore } from "@/providers/tile-store-provider"
@@ -12,21 +13,31 @@ import { resetPlayerPosition } from "@/lib/move-player"
 import { Grid } from "@/components/grid"
 
 export default function GamePage() {
+  const router = useRouter()
   const { id: userId } = useUser()
   const { player, setPlayer } = usePlayerStore((state) => state)
   const { tiles, setTiles } = useTileStore((state) => state)
 
   useEffect(() => {
     async function init() {
-      const { player, tiles } = await getPlayerAndTiles(userId)
-      setPlayer(player)
-      setTiles(tiles)
+      try {
+        const { player, tiles } = await getPlayerAndTiles(userId)
+        setPlayer(player)
+        setTiles(tiles)
+      } catch (err) {
+        if (err instanceof Error && err.message === "Player not found") {
+          router.push("/create-character")
+        } else {
+          console.error("Unexpected error loading game data:", err)
+        }
+      }
     }
 
-    init()
-  }, [userId, setPlayer, setTiles])
+    if (userId) init()
+  }, [userId, setPlayer, setTiles, router])
 
-  const handleReset = () => {
+  const handleReset = (e: Event) => {
+    e.preventDefault()
     console.log(userId)
     resetPlayerPosition(userId)
   }
@@ -42,7 +53,7 @@ export default function GamePage() {
   }
   return (
     <>
-      <div className="border-border absolute bottom-1 right-10 flex gap-4 border p-2">
+      <div className="border-border top-30 fixed right-1 flex flex-col gap-4 border p-2">
         <Button variant="outline" onClick={displayStore} className="">
           DISPLAY STORES
         </Button>

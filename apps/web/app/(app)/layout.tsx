@@ -8,7 +8,7 @@ export default function RootLayout({
   return (
     <div>
       <SiteHeader />
-      <div className="flex flex-1">{children}</div>
+      <div className="flex flex-1 pt-16">{children}</div>
     </div>
   )
 }

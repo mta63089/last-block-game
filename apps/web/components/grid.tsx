@@ -1,34 +1,37 @@
 // components/grid.tsx
 "use client"
 
+import { useRouter } from "next/navigation"
 import { usePlayerStore } from "@/providers/player-store-provider"
 import { useTileStore } from "@/providers/tile-store-provider"
 
+import GameMenu from "./game-menu"
 import { SingleTile } from "./single-tile"
 
 export function Grid() {
-  const tiles = useTileStore((state) => state.tiles)
-  const player = usePlayerStore((state) => state.player)
+  const router = useRouter()
+  const { tiles, getPlayerTile } = useTileStore((state) => state)
+  const { player } = usePlayerStore((state) => state)
+  const playerTile = useTileStore((state) => state.getPlayerTile(player.id))
 
-  if (!tiles?.length || !player) {
+  if (!tiles?.length && player) {
     return <div className="p-4 text-center text-white">Loading map...</div>
   }
 
+  if (!tiles?.length && !player) {
+    router.push("/create-character")
+  }
+
   return (
-    <div className="mx-auto grid h-3/4 w-3/4 grid-cols-3 justify-center self-center border-2 border-gray-500 bg-teal-900">
+    <div className="mx-auto mb-24 grid h-3/4 w-3/4 grid-cols-3 justify-center self-center border-2 border-gray-500 bg-teal-900 font-mono text-xl">
       {tiles.map((tile) => {
         const isPlayerHere =
           tile.coordX === player.positionX && tile.coordY === player.positionY
-
         return (
-          <SingleTile
-            key={tile.id}
-            tile={tile}
-            player={player}
-            isPlayerHere={isPlayerHere}
-          />
+          <SingleTile key={tile.id} tile={tile} isPlayerHere={isPlayerHere} />
         )
       })}
+      <GameMenu player={player} tile={playerTile} />
     </div>
   )
 }
