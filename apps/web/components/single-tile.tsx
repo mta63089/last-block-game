@@ -39,17 +39,12 @@ export function SingleTile({
       const result = await movePlayer(userId, direction)
       if (result?.player && result?.tiles) {
         setPlayer({ ...result.player }) // trigger reactivity
-        setTiles([...result.tiles]) // ensure new array ref
+        setTiles(result.tiles) // ensure new array ref
       }
     } catch (e) {
       console.error("Move failed", e)
     }
   }
-  console.log(
-    "[Single-Tile] Tiles:",
-    tiles.map((t) => [t.coordX, t.coordY])
-  )
-  console.log("[Single-Tile] Player pos:", player.positionX, player.positionY)
 
   const Icon = TileIcons[tile.icon as TileIcon]
   if (isPlayerHere) {
