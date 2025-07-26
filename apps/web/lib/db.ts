@@ -84,6 +84,7 @@ export const getPlayerAndTiles = async (userId: string) => {
     where: {
       coordX: { gte: player.positionX - 1, lte: player.positionX + 1 },
       coordY: { gte: player.positionY - 1, lte: player.positionY + 1 },
+      isInterior: false,
     },
     include: {
       players: true,

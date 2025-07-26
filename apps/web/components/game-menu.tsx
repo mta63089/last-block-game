@@ -28,6 +28,8 @@ export default function GameMenu({ player, ...props }: GameMenuProps) {
     if (player) init()
   }, [player])
 
+  if (!playerTile) return <div>cant get player tile info</div>
+
   return (
     <div
       className="col-span-3 w-full border border-t-2 border-white bg-zinc-900 text-white"
@@ -50,8 +52,12 @@ export default function GameMenu({ player, ...props }: GameMenuProps) {
             Energy: <span className="text-yellow-400">{player?.energy}</span>
           </div>
         </div>
-        <div className="h-full w-full place-content-center bg-amber-700">
-          {playerTile?.description}
+        <div className="flex h-full w-full flex-col items-center font-sans">
+          <div className="text-sm font-light">
+            You are {!playerTile.isInterior ? "outside" : "inside"} of
+          </div>
+          <div className="text-3xl font-bold">{playerTile.name}</div>
+          <div className="text-xl">{playerTile.description}</div>
         </div>
         <div className="mt-2 flex w-24 flex-col gap-1">
           <Button variant="outline" size="sm">

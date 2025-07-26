@@ -14,7 +14,7 @@ import {
 
 import { Button } from "@last-block/ui/components/button"
 
-import { movePlayer } from "@/lib/move-player"
+import { movePlayer, toggleInterior } from "@/lib/move-player"
 
 import { PlayerBadge } from "./player"
 import { TileIcon, TileIcons } from "./tile-icons"
@@ -44,10 +44,54 @@ export function SingleTile({
     }
   }
 
+  async function handleInteriorToggle() {
+    try {
+      const result = await toggleInterior(userId)
+      if (result?.player && result?.tiles) {
+        setPlayer({ ...result.player }) // trigger reactivity
+      }
+    } catch (e) {
+      console.error("Move failed", e)
+    }
+  }
+
   const Icon = TileIcons[tile.icon as TileIcon]
+
+  if (isPlayerHere && player.isInterior) {
+    return (
+      <div className="grid h-64 grid-cols-5 items-center border border-amber-500">
+        <div className="col-span-5 mx-auto flex flex-col items-center p-1">
+          {Icon ? (
+            <div className="size-24 border bg-green-600 p-2">
+              <Icon className="size-20 text-white" />
+            </div>
+          ) : null}
+          <strong>{tile.name}</strong>
+          {tile.players && tile.players.length > 0 && (
+            <div className="mt-2 flex flex-wrap justify-center gap-1">
+              {tile.players.map((p) => (
+                <PlayerBadge key={p.id} player={p} />
+              ))}
+            </div>
+          )}
+        </div>
+        <Button
+          className="relative bottom-1 left-1"
+          onClick={handleInteriorToggle}
+        >
+          Exit
+        </Button>
+      </div>
+    )
+  }
+
   if (isPlayerHere) {
     return (
       <div className="grid h-64 grid-cols-5 border border-amber-500">
+        <div className="left-200 top-100 absolute">
+          interior: {tile.hasInterior}
+        </div>
+
         <div className="col-span-5 mx-auto p-1">
           <Button
             variant="outline"
@@ -102,6 +146,13 @@ export function SingleTile({
             <ArrowBigDown className="size-6" />
           </Button>
         </div>
+        <Button
+          onClick={handleInteriorToggle}
+          variant="outline"
+          className="relative bottom-40 left-80"
+        >
+          Enter
+        </Button>
       </div>
     )
   }
@@ -110,6 +161,7 @@ export function SingleTile({
       key={`${tile.coordX}-${tile.coordY}`}
       className="relative flex h-64 flex-1 flex-col items-center justify-center border p-2"
     >
+      <div className="relative left-0 top-0">interior: {tile.hasInterior}</div>
       {Icon ? (
         <div className="size-24 border bg-green-600/20 p-2">
           <Icon className="size-20 text-white" />

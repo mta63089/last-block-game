@@ -8,6 +8,7 @@ import { useTileStore } from "@/providers/tile-store-provider"
 
 import { Button } from "@last-block/ui/components/button"
 
+import { createInteriorTile } from "@/lib/admin"
 import { getPlayerAndTiles } from "@/lib/db"
 import { resetPlayerPosition } from "@/lib/move-player"
 import { Grid } from "@/components/grid"
@@ -49,6 +50,15 @@ export default function GamePage() {
       player
     )
   }
+
+  const handleCreateInterior = async () => {
+    if (!player.tileId)
+      throw new Error("Could not create interior, player's tile id not found")
+    await createInteriorTile(player.tileId)
+  }
+
+  if (!player) return
+
   return (
     <>
       <div className="border-border top-30 fixed right-1 flex flex-col gap-4 border p-2">
@@ -58,6 +68,7 @@ export default function GamePage() {
         <Button variant="secondary" onClick={handleReset} className="">
           Reset Position
         </Button>
+        <Button onClick={handleCreateInterior}>Create Interior</Button>
       </div>
       <Grid />
     </>
