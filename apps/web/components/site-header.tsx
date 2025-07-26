@@ -248,7 +248,7 @@ export default function SiteHeader() {
                     Sign In
                   </Link>
                   <Link
-                    href="/signup"
+                    href="sign-up"
                     className="bg-foreground text-background hover:bg-foreground/90 block w-full rounded-lg py-3 text-center font-medium transition-all duration-200"
                     onClick={() => setIsMobileMenuOpen(false)}
                   >

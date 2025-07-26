@@ -49,12 +49,6 @@ export default function GameMenu({ player, ...props }: GameMenuProps) {
           <div>
             Energy: <span className="text-yellow-400">{player?.energy}</span>
           </div>
-          <div className="mt-2 text-sm">Last Actions:</div>
-          <ul className="list-disc pl-4 text-xs">
-            <li>Looked around</li>
-            <li>Found an old radio</li>
-            <li>Heard gunshots nearby</li>
-          </ul>
         </div>
         <div className="h-full w-full place-content-center bg-amber-700">
           {playerTile?.description}
@@ -69,17 +63,6 @@ export default function GameMenu({ player, ...props }: GameMenuProps) {
           <Button variant="ghost" size="sm">
             Skills
           </Button>
-        </div>
-
-        {/* Right Section: Tile Activity + Buttons */}
-        <div className="flex flex-col gap-2 text-sm">
-          <div className="text-white/80">Tile Updates:</div>
-          <div className="text-xs text-gray-300">
-            - Footsteps nearby
-            <br />
-            - One zombie spotted
-            <br />- Trash pile moved
-          </div>
         </div>
       </div>
     </div>

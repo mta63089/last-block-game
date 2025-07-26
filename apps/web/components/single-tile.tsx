@@ -47,7 +47,7 @@ export function SingleTile({
   const Icon = TileIcons[tile.icon as TileIcon]
   if (isPlayerHere) {
     return (
-      <div className="grid h-56 grid-cols-5 border border-amber-500">
+      <div className="grid h-64 grid-cols-5 border border-amber-500">
         <div className="col-span-5 mx-auto p-1">
           <Button
             variant="outline"
@@ -70,15 +70,18 @@ export function SingleTile({
         </div>
         <div className="col-span-3 mx-auto flex flex-col items-center p-1">
           {Icon ? (
-            <div className="size-16 bg-red-400/50">
-              <Icon className="size-16 text-white" />
+            <div className="size-24 border bg-green-600 p-2">
+              <Icon className="size-20 text-white" />
             </div>
           ) : null}
           <strong>{tile.name}</strong>
-          <div className="text-green-400">
-            {`(${tile.coordX},${tile.coordY})`}
-          </div>
-          {/* <PlayerBadge player={player} /> */}
+          {tile.players && tile.players.length > 0 && (
+            <div className="mt-2 flex flex-wrap justify-center gap-1">
+              {tile.players.map((p) => (
+                <PlayerBadge key={p.id} player={p} />
+              ))}
+            </div>
+          )}
         </div>
         <div className="flex w-full items-center justify-end p-1">
           <Button
@@ -105,17 +108,16 @@ export function SingleTile({
   return (
     <div
       key={`${tile.coordX}-${tile.coordY}`}
-      className="relative flex h-56 flex-1 flex-col items-center justify-center border p-2"
+      className="relative flex h-64 flex-1 flex-col items-center justify-center border p-2"
     >
       {Icon ? (
-        <div className="size-16 bg-red-400/50">
-          <Icon className="size-16 text-white" />
+        <div className="size-24 border bg-green-600/20 p-2">
+          <Icon className="size-20 text-white" />
         </div>
       ) : null}
       <strong>{tile.name}</strong>
-      <div className="text-green-400">{`(${tile.coordX},${tile.coordY})`}</div>
       {tile.players && tile.players.length > 0 && (
-        <div className="mt-2 flex flex-wrap justify-center gap-1">
+        <div className="mt-2 flex flex-col flex-wrap justify-center gap-1">
           {tile.players.map((p) => (
             <PlayerBadge key={p.id} player={p} />
           ))}

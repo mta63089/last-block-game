@@ -22,7 +22,7 @@ export function Grid() {
   }
 
   return (
-    <div className="mx-auto mb-24 grid h-3/4 w-3/4 grid-cols-3 justify-center self-center border-2 border-gray-500 bg-teal-900 font-mono text-xl">
+    <div className="mx-auto grid w-3/4 grid-cols-3 justify-center self-center border-2 border-gray-500 bg-teal-900 font-mono text-xl">
       {tiles.map((tile) => {
         const isPlayerHere =
           tile.coordX === player.positionX && tile.coordY === player.positionY
